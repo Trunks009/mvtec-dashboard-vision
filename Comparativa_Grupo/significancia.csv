@@ -1,0 +1,31 @@
+metrica,par,a,b,dif_mediana,p,p_holm,significativo,friedman_chi2,friedman_p
+auroc_img,patchcore_resnet50|vgg16_dfr,PatchCore · ResNet50 + kNN,DFR · AE de características VGG16,0.1358,0.00018,0.00275,sí,33.9,2.498120204076618e-06
+auroc_img,patchcore_resnet50|lb_ensamble,PatchCore · ResNet50 + kNN,Línea base clásica · ensamble,0.1946,0.00031,0.00427,sí,33.9,2.498120204076618e-06
+auroc_img,patchcore_resnet50|ae_conv_ssim,PatchCore · ResNet50 + kNN,AE convolucional · SSIM+L1,0.3997,0.00043,0.00555,sí,33.9,2.498120204076618e-06
+auroc_img,patchcore_resnet50|vae_dae,PatchCore · ResNet50 + kNN,VAE / Denoising AE,0.1559,0.00201,0.02417,sí,33.9,2.498120204076618e-06
+auroc_img,padim_vgg16|lb_ensamble,PaDiM · VGG16 + Gauss,Línea base clásica · ensamble,0.1271,0.00427,0.047,sí,33.9,2.498120204076618e-06
+auroc_img,padim_vgg16|ae_conv_ssim,PaDiM · VGG16 + Gauss,AE convolucional · SSIM+L1,0.342,0.00671,0.06714,no,33.9,2.498120204076618e-06
+auroc_img,vgg16_dfr|ae_conv_ssim,DFR · AE de características VGG16,AE convolucional · SSIM+L1,0.1561,0.01025,0.09229,no,33.9,2.498120204076618e-06
+auroc_img,padim_vgg16|vgg16_dfr,PaDiM · VGG16 + Gauss,DFR · AE de características VGG16,0.1003,0.01508,0.12061,no,33.9,2.498120204076618e-06
+auroc_img,patchcore_resnet50|padim_vgg16,PatchCore · ResNet50 + kNN,PaDiM · VGG16 + Gauss,0.0355,0.05536,0.38751,no,33.9,2.498120204076618e-06
+auroc_img,padim_vgg16|vae_dae,PaDiM · VGG16 + Gauss,VAE / Denoising AE,0.0856,0.08325,0.49951,no,33.9,2.498120204076618e-06
+auroc_img,ae_conv_ssim|lb_ensamble,AE convolucional · SSIM+L1,Línea base clásica · ensamble,-0.2092,0.13538,0.67688,no,33.9,2.498120204076618e-06
+auroc_img,ae_conv_ssim|vae_dae,AE convolucional · SSIM+L1,VAE / Denoising AE,-0.1325,0.16882,0.67688,no,33.9,2.498120204076618e-06
+auroc_img,vgg16_dfr|lb_ensamble,DFR · AE de características VGG16,Línea base clásica · ensamble,0.0325,0.48871,1.0,no,33.9,2.498120204076618e-06
+auroc_img,vae_dae|lb_ensamble,VAE / Denoising AE,Línea base clásica · ensamble,0.0683,0.59949,1.0,no,33.9,2.498120204076618e-06
+auroc_img,vgg16_dfr|vae_dae,DFR · AE de características VGG16,VAE / Denoising AE,-0.0147,0.97797,1.0,no,33.9,2.498120204076618e-06
+auroc_px,patchcore_resnet50|vgg16_dfr,PatchCore · ResNet50 + kNN,DFR · AE de características VGG16,0.0861,6e-05,0.00092,sí,48.68,2.584489355032924e-09
+auroc_px,patchcore_resnet50|ae_conv_ssim,PatchCore · ResNet50 + kNN,AE convolucional · SSIM+L1,0.2082,6e-05,0.00092,sí,48.68,2.584489355032924e-09
+auroc_px,patchcore_resnet50|vae_dae,PatchCore · ResNet50 + kNN,VAE / Denoising AE,0.1856,6e-05,0.00092,sí,48.68,2.584489355032924e-09
+auroc_px,patchcore_resnet50|lb_ensamble,PatchCore · ResNet50 + kNN,Línea base clásica · ensamble,0.1056,6e-05,0.00092,sí,48.68,2.584489355032924e-09
+auroc_px,padim_vgg16|ae_conv_ssim,PaDiM · VGG16 + Gauss,AE convolucional · SSIM+L1,0.1854,0.00018,0.00201,sí,48.68,2.584489355032924e-09
+auroc_px,padim_vgg16|vgg16_dfr,PaDiM · VGG16 + Gauss,DFR · AE de características VGG16,0.069,0.00031,0.00305,sí,48.68,2.584489355032924e-09
+auroc_px,padim_vgg16|vae_dae,PaDiM · VGG16 + Gauss,VAE / Denoising AE,0.1921,0.00031,0.00305,sí,48.68,2.584489355032924e-09
+auroc_px,vgg16_dfr|ae_conv_ssim,DFR · AE de características VGG16,AE convolucional · SSIM+L1,0.1056,0.00043,0.00342,sí,48.68,2.584489355032924e-09
+auroc_px,patchcore_resnet50|padim_vgg16,PatchCore · ResNet50 + kNN,PaDiM · VGG16 + Gauss,0.0144,0.00201,0.0141,sí,48.68,2.584489355032924e-09
+auroc_px,padim_vgg16|lb_ensamble,PaDiM · VGG16 + Gauss,Línea base clásica · ensamble,0.0456,0.00262,0.01575,sí,48.68,2.584489355032924e-09
+auroc_px,ae_conv_ssim|lb_ensamble,AE convolucional · SSIM+L1,Línea base clásica · ensamble,-0.0558,0.00836,0.04181,sí,48.68,2.584489355032924e-09
+auroc_px,vae_dae|lb_ensamble,VAE / Denoising AE,Línea base clásica · ensamble,-0.069,0.01508,0.0603,no,48.68,2.584489355032924e-09
+auroc_px,vgg16_dfr|vae_dae,DFR · AE de características VGG16,VAE / Denoising AE,0.0726,0.04126,0.12378,no,48.68,2.584489355032924e-09
+auroc_px,ae_conv_ssim|vae_dae,AE convolucional · SSIM+L1,VAE / Denoising AE,0.0074,0.71973,1.0,no,48.68,2.584489355032924e-09
+auroc_px,vgg16_dfr|lb_ensamble,DFR · AE de características VGG16,Línea base clásica · ensamble,-0.0155,0.89038,1.0,no,48.68,2.584489355032924e-09

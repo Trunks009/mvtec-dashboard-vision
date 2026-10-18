@@ -1,0 +1,658 @@
+modelo,categoria,tipo,n,auroc,recall,nombre,id
+ae_conv_ssim,bottle,broken_large,20,0.7975,0.45,AE convolucional · SSIM+L1,ae_conv_ssim|bottle|broken_large
+ae_conv_ssim,bottle,broken_small,22,0.6795,0.4091,AE convolucional · SSIM+L1,ae_conv_ssim|bottle|broken_small
+ae_conv_ssim,bottle,contamination,21,0.4333,0.2381,AE convolucional · SSIM+L1,ae_conv_ssim|bottle|contamination
+ae_conv_ssim,cable,bent_wire,13,0.4469,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|cable|bent_wire
+ae_conv_ssim,cable,cable_swap,12,0.5402,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|cable|cable_swap
+ae_conv_ssim,cable,combined,11,0.3229,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|cable|combined
+ae_conv_ssim,cable,cut_inner_insulation,14,0.7438,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|cable|cut_inner_insulation
+ae_conv_ssim,cable,cut_outer_insulation,10,0.9121,0.1,AE convolucional · SSIM+L1,ae_conv_ssim|cable|cut_outer_insulation
+ae_conv_ssim,cable,missing_cable,12,0.3305,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|cable|missing_cable
+ae_conv_ssim,cable,missing_wire,10,0.4224,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|cable|missing_wire
+ae_conv_ssim,cable,poke_insulation,10,0.5379,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|cable|poke_insulation
+ae_conv_ssim,capsule,crack,23,0.4064,0.0435,AE convolucional · SSIM+L1,ae_conv_ssim|capsule|crack
+ae_conv_ssim,capsule,faulty_imprint,22,0.2787,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|capsule|faulty_imprint
+ae_conv_ssim,capsule,poke,21,0.2422,0.0476,AE convolucional · SSIM+L1,ae_conv_ssim|capsule|poke
+ae_conv_ssim,capsule,scratch,23,0.2798,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|capsule|scratch
+ae_conv_ssim,capsule,squeeze,20,0.7478,0.3,AE convolucional · SSIM+L1,ae_conv_ssim|capsule|squeeze
+ae_conv_ssim,carpet,color,19,0.5395,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|carpet|color
+ae_conv_ssim,carpet,cut,17,0.2206,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|carpet|cut
+ae_conv_ssim,carpet,hole,17,0.6071,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|carpet|hole
+ae_conv_ssim,carpet,metal_contamination,17,0.1071,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|carpet|metal_contamination
+ae_conv_ssim,carpet,thread,19,0.4906,0.0526,AE convolucional · SSIM+L1,ae_conv_ssim|carpet|thread
+ae_conv_ssim,grid,bent,12,0.9048,0.0833,AE convolucional · SSIM+L1,ae_conv_ssim|grid|bent
+ae_conv_ssim,grid,broken,12,0.8175,0.1667,AE convolucional · SSIM+L1,ae_conv_ssim|grid|broken
+ae_conv_ssim,grid,glue,11,0.6061,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|grid|glue
+ae_conv_ssim,grid,metal_contamination,11,0.9697,0.0909,AE convolucional · SSIM+L1,ae_conv_ssim|grid|metal_contamination
+ae_conv_ssim,grid,thread,11,0.9221,0.4545,AE convolucional · SSIM+L1,ae_conv_ssim|grid|thread
+ae_conv_ssim,hazelnut,crack,18,0.9125,0.6111,AE convolucional · SSIM+L1,ae_conv_ssim|hazelnut|crack
+ae_conv_ssim,hazelnut,cut,17,0.8088,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|hazelnut|cut
+ae_conv_ssim,hazelnut,hole,18,0.9639,0.2778,AE convolucional · SSIM+L1,ae_conv_ssim|hazelnut|hole
+ae_conv_ssim,hazelnut,print,17,1.0,0.9412,AE convolucional · SSIM+L1,ae_conv_ssim|hazelnut|print
+ae_conv_ssim,leather,color,19,0.5789,0.3684,AE convolucional · SSIM+L1,ae_conv_ssim|leather|color
+ae_conv_ssim,leather,cut,19,0.528,0.5263,AE convolucional · SSIM+L1,ae_conv_ssim|leather|cut
+ae_conv_ssim,leather,fold,17,0.9963,1.0,AE convolucional · SSIM+L1,ae_conv_ssim|leather|fold
+ae_conv_ssim,leather,glue,19,0.6069,0.5263,AE convolucional · SSIM+L1,ae_conv_ssim|leather|glue
+ae_conv_ssim,leather,poke,18,0.9913,1.0,AE convolucional · SSIM+L1,ae_conv_ssim|leather|poke
+ae_conv_ssim,metal_nut,bent,25,0.3527,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|metal_nut|bent
+ae_conv_ssim,metal_nut,color,22,0.4669,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|metal_nut|color
+ae_conv_ssim,metal_nut,flip,23,0.5336,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|metal_nut|flip
+ae_conv_ssim,metal_nut,scratch,23,0.332,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|metal_nut|scratch
+ae_conv_ssim,pill,color,25,0.5708,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|pill|color
+ae_conv_ssim,pill,combined,17,0.8937,0.2941,AE convolucional · SSIM+L1,ae_conv_ssim|pill|combined
+ae_conv_ssim,pill,contamination,21,0.7802,0.1429,AE convolucional · SSIM+L1,ae_conv_ssim|pill|contamination
+ae_conv_ssim,pill,crack,26,0.784,0.1538,AE convolucional · SSIM+L1,ae_conv_ssim|pill|crack
+ae_conv_ssim,pill,faulty_imprint,19,0.6174,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|pill|faulty_imprint
+ae_conv_ssim,pill,pill_type,9,0.8205,0.4444,AE convolucional · SSIM+L1,ae_conv_ssim|pill|pill_type
+ae_conv_ssim,pill,scratch,24,0.6266,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|pill|scratch
+ae_conv_ssim,screw,manipulated_front,24,0.8171,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|screw|manipulated_front
+ae_conv_ssim,screw,scratch_head,24,0.9522,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|screw|scratch_head
+ae_conv_ssim,screw,scratch_neck,25,0.9083,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|screw|scratch_neck
+ae_conv_ssim,screw,thread_side,23,0.9077,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|screw|thread_side
+ae_conv_ssim,screw,thread_top,23,0.9099,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|screw|thread_top
+ae_conv_ssim,tile,crack,17,0.8592,0.1765,AE convolucional · SSIM+L1,ae_conv_ssim|tile|crack
+ae_conv_ssim,tile,glue_strip,18,0.5034,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|tile|glue_strip
+ae_conv_ssim,tile,gray_stroke,16,0.5644,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|tile|gray_stroke
+ae_conv_ssim,tile,oil,18,0.4377,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|tile|oil
+ae_conv_ssim,tile,rough,15,0.4545,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|tile|rough
+ae_conv_ssim,toothbrush,defective,30,0.2778,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|toothbrush|defective
+ae_conv_ssim,transistor,bent_lead,10,0.4583,0.1,AE convolucional · SSIM+L1,ae_conv_ssim|transistor|bent_lead
+ae_conv_ssim,transistor,cut_lead,10,0.3567,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|transistor|cut_lead
+ae_conv_ssim,transistor,damaged_case,10,0.2383,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|transistor|damaged_case
+ae_conv_ssim,transistor,misplaced,10,0.56,0.3,AE convolucional · SSIM+L1,ae_conv_ssim|transistor|misplaced
+ae_conv_ssim,wood,color,8,0.7434,0.125,AE convolucional · SSIM+L1,ae_conv_ssim|wood|color
+ae_conv_ssim,wood,combined,11,0.9904,0.3636,AE convolucional · SSIM+L1,ae_conv_ssim|wood|combined
+ae_conv_ssim,wood,hole,10,0.9211,0.3,AE convolucional · SSIM+L1,ae_conv_ssim|wood|hole
+ae_conv_ssim,wood,liquid,10,0.5263,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|wood|liquid
+ae_conv_ssim,wood,scratch,21,0.8697,0.0952,AE convolucional · SSIM+L1,ae_conv_ssim|wood|scratch
+ae_conv_ssim,zipper,broken_teeth,19,0.176,0.0526,AE convolucional · SSIM+L1,ae_conv_ssim|zipper|broken_teeth
+ae_conv_ssim,zipper,combined,16,0.5293,0.25,AE convolucional · SSIM+L1,ae_conv_ssim|zipper|combined
+ae_conv_ssim,zipper,fabric_border,17,0.9007,0.7059,AE convolucional · SSIM+L1,ae_conv_ssim|zipper|fabric_border
+ae_conv_ssim,zipper,fabric_interior,16,0.2324,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|zipper|fabric_interior
+ae_conv_ssim,zipper,rough,17,0.5496,0.2353,AE convolucional · SSIM+L1,ae_conv_ssim|zipper|rough
+ae_conv_ssim,zipper,split_teeth,18,0.1649,0.0556,AE convolucional · SSIM+L1,ae_conv_ssim|zipper|split_teeth
+ae_conv_ssim,zipper,squeezed_teeth,16,0.4688,0.0,AE convolucional · SSIM+L1,ae_conv_ssim|zipper|squeezed_teeth
+lb_bordes,bottle,broken_large,20,0.8275,0.1,LB · bordes,lb_bordes|bottle|broken_large
+lb_bordes,bottle,broken_small,22,0.7455,0.0909,LB · bordes,lb_bordes|bottle|broken_small
+lb_bordes,bottle,contamination,21,0.8976,0.6667,LB · bordes,lb_bordes|bottle|contamination
+lb_bordes,cable,bent_wire,13,0.6844,0.1538,LB · bordes,lb_bordes|cable|bent_wire
+lb_bordes,cable,cable_swap,12,0.4547,0.0833,LB · bordes,lb_bordes|cable|cable_swap
+lb_bordes,cable,combined,11,0.7766,0.2727,LB · bordes,lb_bordes|cable|combined
+lb_bordes,cable,cut_inner_insulation,14,0.476,0.0,LB · bordes,lb_bordes|cable|cut_inner_insulation
+lb_bordes,cable,cut_outer_insulation,10,0.6009,0.1,LB · bordes,lb_bordes|cable|cut_outer_insulation
+lb_bordes,cable,missing_cable,12,0.5826,0.0,LB · bordes,lb_bordes|cable|missing_cable
+lb_bordes,cable,missing_wire,10,0.5767,0.0,LB · bordes,lb_bordes|cable|missing_wire
+lb_bordes,cable,poke_insulation,10,0.8086,0.0,LB · bordes,lb_bordes|cable|poke_insulation
+lb_bordes,capsule,crack,23,0.7457,0.087,LB · bordes,lb_bordes|capsule|crack
+lb_bordes,capsule,faulty_imprint,22,0.5306,0.0,LB · bordes,lb_bordes|capsule|faulty_imprint
+lb_bordes,capsule,poke,21,0.6097,0.0,LB · bordes,lb_bordes|capsule|poke
+lb_bordes,capsule,scratch,23,0.6437,0.0,LB · bordes,lb_bordes|capsule|scratch
+lb_bordes,capsule,squeeze,20,0.7391,0.0,LB · bordes,lb_bordes|capsule|squeeze
+lb_bordes,carpet,color,19,0.5,0.0,LB · bordes,lb_bordes|carpet|color
+lb_bordes,carpet,cut,17,0.5,0.0,LB · bordes,lb_bordes|carpet|cut
+lb_bordes,carpet,hole,17,0.5,0.0,LB · bordes,lb_bordes|carpet|hole
+lb_bordes,carpet,metal_contamination,17,0.5,0.0,LB · bordes,lb_bordes|carpet|metal_contamination
+lb_bordes,carpet,thread,19,0.5,0.0,LB · bordes,lb_bordes|carpet|thread
+lb_bordes,grid,bent,12,0.5,0.0,LB · bordes,lb_bordes|grid|bent
+lb_bordes,grid,broken,12,0.5,0.0,LB · bordes,lb_bordes|grid|broken
+lb_bordes,grid,glue,11,0.5,0.0,LB · bordes,lb_bordes|grid|glue
+lb_bordes,grid,metal_contamination,11,0.5,0.0,LB · bordes,lb_bordes|grid|metal_contamination
+lb_bordes,grid,thread,11,0.5,0.0,LB · bordes,lb_bordes|grid|thread
+lb_bordes,hazelnut,crack,18,0.5139,0.0556,LB · bordes,lb_bordes|hazelnut|crack
+lb_bordes,hazelnut,cut,17,0.6184,0.2353,LB · bordes,lb_bordes|hazelnut|cut
+lb_bordes,hazelnut,hole,18,0.3306,0.0,LB · bordes,lb_bordes|hazelnut|hole
+lb_bordes,hazelnut,print,17,0.3603,0.0,LB · bordes,lb_bordes|hazelnut|print
+lb_bordes,leather,color,19,0.5,0.0,LB · bordes,lb_bordes|leather|color
+lb_bordes,leather,cut,19,0.5,0.0,LB · bordes,lb_bordes|leather|cut
+lb_bordes,leather,fold,17,0.5,0.0,LB · bordes,lb_bordes|leather|fold
+lb_bordes,leather,glue,19,0.5,0.0,LB · bordes,lb_bordes|leather|glue
+lb_bordes,leather,poke,18,0.5,0.0,LB · bordes,lb_bordes|leather|poke
+lb_bordes,metal_nut,bent,25,0.68,0.36,LB · bordes,lb_bordes|metal_nut|bent
+lb_bordes,metal_nut,color,22,0.5909,0.1818,LB · bordes,lb_bordes|metal_nut|color
+lb_bordes,metal_nut,flip,23,1.0,1.0,LB · bordes,lb_bordes|metal_nut|flip
+lb_bordes,metal_nut,scratch,23,0.5435,0.087,LB · bordes,lb_bordes|metal_nut|scratch
+lb_bordes,pill,color,25,0.5077,0.0,LB · bordes,lb_bordes|pill|color
+lb_bordes,pill,combined,17,0.5566,0.0588,LB · bordes,lb_bordes|pill|combined
+lb_bordes,pill,contamination,21,0.5513,0.0,LB · bordes,lb_bordes|pill|contamination
+lb_bordes,pill,crack,26,0.5518,0.0,LB · bordes,lb_bordes|pill|crack
+lb_bordes,pill,faulty_imprint,19,0.5202,0.0,LB · bordes,lb_bordes|pill|faulty_imprint
+lb_bordes,pill,pill_type,9,0.8291,0.0,LB · bordes,lb_bordes|pill|pill_type
+lb_bordes,pill,scratch,24,0.5994,0.0,LB · bordes,lb_bordes|pill|scratch
+lb_bordes,screw,manipulated_front,24,0.3882,0.0,LB · bordes,lb_bordes|screw|manipulated_front
+lb_bordes,screw,scratch_head,24,0.5122,0.0,LB · bordes,lb_bordes|screw|scratch_head
+lb_bordes,screw,scratch_neck,25,0.4976,0.04,LB · bordes,lb_bordes|screw|scratch_neck
+lb_bordes,screw,thread_side,23,0.5398,0.0,LB · bordes,lb_bordes|screw|thread_side
+lb_bordes,screw,thread_top,23,0.4878,0.0,LB · bordes,lb_bordes|screw|thread_top
+lb_bordes,tile,crack,17,0.5,0.0,LB · bordes,lb_bordes|tile|crack
+lb_bordes,tile,glue_strip,18,0.5,0.0,LB · bordes,lb_bordes|tile|glue_strip
+lb_bordes,tile,gray_stroke,16,0.5,0.0,LB · bordes,lb_bordes|tile|gray_stroke
+lb_bordes,tile,oil,18,0.5,0.0,LB · bordes,lb_bordes|tile|oil
+lb_bordes,tile,rough,15,0.5,0.0,LB · bordes,lb_bordes|tile|rough
+lb_bordes,toothbrush,defective,30,0.8722,0.6,LB · bordes,lb_bordes|toothbrush|defective
+lb_bordes,transistor,bent_lead,10,0.7133,0.0,LB · bordes,lb_bordes|transistor|bent_lead
+lb_bordes,transistor,cut_lead,10,0.4817,0.0,LB · bordes,lb_bordes|transistor|cut_lead
+lb_bordes,transistor,damaged_case,10,0.7317,0.0,LB · bordes,lb_bordes|transistor|damaged_case
+lb_bordes,transistor,misplaced,10,0.855,0.0,LB · bordes,lb_bordes|transistor|misplaced
+lb_bordes,wood,color,8,0.5,0.0,LB · bordes,lb_bordes|wood|color
+lb_bordes,wood,combined,11,0.5,0.0,LB · bordes,lb_bordes|wood|combined
+lb_bordes,wood,hole,10,0.5,0.0,LB · bordes,lb_bordes|wood|hole
+lb_bordes,wood,liquid,10,0.5,0.0,LB · bordes,lb_bordes|wood|liquid
+lb_bordes,wood,scratch,21,0.5,0.0,LB · bordes,lb_bordes|wood|scratch
+lb_bordes,zipper,broken_teeth,19,0.2845,0.0,LB · bordes,lb_bordes|zipper|broken_teeth
+lb_bordes,zipper,combined,16,0.457,0.0,LB · bordes,lb_bordes|zipper|combined
+lb_bordes,zipper,fabric_border,17,0.4632,0.0,LB · bordes,lb_bordes|zipper|fabric_border
+lb_bordes,zipper,fabric_interior,16,0.4941,0.0,LB · bordes,lb_bordes|zipper|fabric_interior
+lb_bordes,zipper,rough,17,0.4375,0.0,LB · bordes,lb_bordes|zipper|rough
+lb_bordes,zipper,split_teeth,18,0.4167,0.0,LB · bordes,lb_bordes|zipper|split_teeth
+lb_bordes,zipper,squeezed_teeth,16,0.4473,0.0625,LB · bordes,lb_bordes|zipper|squeezed_teeth
+lb_ensamble,bottle,broken_large,20,0.9525,0.2,Línea base clásica · ensamble,lb_ensamble|bottle|broken_large
+lb_ensamble,bottle,broken_small,22,0.8591,0.1818,Línea base clásica · ensamble,lb_ensamble|bottle|broken_small
+lb_ensamble,bottle,contamination,21,0.9357,0.7143,Línea base clásica · ensamble,lb_ensamble|bottle|contamination
+lb_ensamble,cable,bent_wire,13,0.5981,0.1538,Línea base clásica · ensamble,lb_ensamble|cable|bent_wire
+lb_ensamble,cable,cable_swap,12,0.7055,0.0833,Línea base clásica · ensamble,lb_ensamble|cable|cable_swap
+lb_ensamble,cable,combined,11,0.8307,0.2727,Línea base clásica · ensamble,lb_ensamble|cable|combined
+lb_ensamble,cable,cut_inner_insulation,14,0.6342,0.0,Línea base clásica · ensamble,lb_ensamble|cable|cut_inner_insulation
+lb_ensamble,cable,cut_outer_insulation,10,0.8103,0.1,Línea base clásica · ensamble,lb_ensamble|cable|cut_outer_insulation
+lb_ensamble,cable,missing_cable,12,0.5647,0.0,Línea base clásica · ensamble,lb_ensamble|cable|missing_cable
+lb_ensamble,cable,missing_wire,10,0.4948,0.0,Línea base clásica · ensamble,lb_ensamble|cable|missing_wire
+lb_ensamble,cable,poke_insulation,10,0.781,0.1,Línea base clásica · ensamble,lb_ensamble|cable|poke_insulation
+lb_ensamble,capsule,crack,23,0.7108,0.1739,Línea base clásica · ensamble,lb_ensamble|capsule|crack
+lb_ensamble,capsule,faulty_imprint,22,0.5356,0.0,Línea base clásica · ensamble,lb_ensamble|capsule|faulty_imprint
+lb_ensamble,capsule,poke,21,0.5942,0.0,Línea base clásica · ensamble,lb_ensamble|capsule|poke
+lb_ensamble,capsule,scratch,23,0.5766,0.0,Línea base clásica · ensamble,lb_ensamble|capsule|scratch
+lb_ensamble,capsule,squeeze,20,0.8674,0.0,Línea base clásica · ensamble,lb_ensamble|capsule|squeeze
+lb_ensamble,carpet,color,19,0.9474,0.4211,Línea base clásica · ensamble,lb_ensamble|carpet|color
+lb_ensamble,carpet,cut,17,0.6744,0.2353,Línea base clásica · ensamble,lb_ensamble|carpet|cut
+lb_ensamble,carpet,hole,17,0.9034,0.1765,Línea base clásica · ensamble,lb_ensamble|carpet|hole
+lb_ensamble,carpet,metal_contamination,17,0.2332,0.0,Línea base clásica · ensamble,lb_ensamble|carpet|metal_contamination
+lb_ensamble,carpet,thread,19,0.6617,0.1579,Línea base clásica · ensamble,lb_ensamble|carpet|thread
+lb_ensamble,grid,bent,12,0.7579,0.0,Línea base clásica · ensamble,lb_ensamble|grid|bent
+lb_ensamble,grid,broken,12,0.7698,0.0,Línea base clásica · ensamble,lb_ensamble|grid|broken
+lb_ensamble,grid,glue,11,0.5974,0.0,Línea base clásica · ensamble,lb_ensamble|grid|glue
+lb_ensamble,grid,metal_contamination,11,0.6797,0.0,Línea base clásica · ensamble,lb_ensamble|grid|metal_contamination
+lb_ensamble,grid,thread,11,0.5671,0.0,Línea base clásica · ensamble,lb_ensamble|grid|thread
+lb_ensamble,hazelnut,crack,18,0.6486,0.0556,Línea base clásica · ensamble,lb_ensamble|hazelnut|crack
+lb_ensamble,hazelnut,cut,17,0.6338,0.2353,Línea base clásica · ensamble,lb_ensamble|hazelnut|cut
+lb_ensamble,hazelnut,hole,18,0.5681,0.0,Línea base clásica · ensamble,lb_ensamble|hazelnut|hole
+lb_ensamble,hazelnut,print,17,0.7191,0.0,Línea base clásica · ensamble,lb_ensamble|hazelnut|print
+lb_ensamble,leather,color,19,0.8438,0.2105,Línea base clásica · ensamble,lb_ensamble|leather|color
+lb_ensamble,leather,cut,19,0.9868,0.8421,Línea base clásica · ensamble,lb_ensamble|leather|cut
+lb_ensamble,leather,fold,17,1.0,1.0,Línea base clásica · ensamble,lb_ensamble|leather|fold
+lb_ensamble,leather,glue,19,0.949,0.7368,Línea base clásica · ensamble,lb_ensamble|leather|glue
+lb_ensamble,leather,poke,18,1.0,1.0,Línea base clásica · ensamble,lb_ensamble|leather|poke
+lb_ensamble,metal_nut,bent,25,0.4491,0.36,Línea base clásica · ensamble,lb_ensamble|metal_nut|bent
+lb_ensamble,metal_nut,color,22,0.719,0.4091,Línea base clásica · ensamble,lb_ensamble|metal_nut|color
+lb_ensamble,metal_nut,flip,23,1.0,1.0,Línea base clásica · ensamble,lb_ensamble|metal_nut|flip
+lb_ensamble,metal_nut,scratch,23,0.3656,0.1304,Línea base clásica · ensamble,lb_ensamble|metal_nut|scratch
+lb_ensamble,pill,color,25,0.5508,0.0,Línea base clásica · ensamble,lb_ensamble|pill|color
+lb_ensamble,pill,combined,17,0.6561,0.0588,Línea base clásica · ensamble,lb_ensamble|pill|combined
+lb_ensamble,pill,contamination,21,0.5861,0.0,Línea base clásica · ensamble,lb_ensamble|pill|contamination
+lb_ensamble,pill,crack,26,0.5133,0.0,Línea base clásica · ensamble,lb_ensamble|pill|crack
+lb_ensamble,pill,faulty_imprint,19,0.4757,0.0,Línea base clásica · ensamble,lb_ensamble|pill|faulty_imprint
+lb_ensamble,pill,pill_type,9,0.812,0.0,Línea base clásica · ensamble,lb_ensamble|pill|pill_type
+lb_ensamble,pill,scratch,24,0.5801,0.0,Línea base clásica · ensamble,lb_ensamble|pill|scratch
+lb_ensamble,screw,manipulated_front,24,0.44,0.0417,Línea base clásica · ensamble,lb_ensamble|screw|manipulated_front
+lb_ensamble,screw,scratch_head,24,0.5193,0.0833,Línea base clásica · ensamble,lb_ensamble|screw|scratch_head
+lb_ensamble,screw,scratch_neck,25,0.4527,0.04,Línea base clásica · ensamble,lb_ensamble|screw|scratch_neck
+lb_ensamble,screw,thread_side,23,0.5207,0.087,Línea base clásica · ensamble,lb_ensamble|screw|thread_side
+lb_ensamble,screw,thread_top,23,0.4846,0.0,Línea base clásica · ensamble,lb_ensamble|screw|thread_top
+lb_ensamble,tile,crack,17,0.877,0.2941,Línea base clásica · ensamble,lb_ensamble|tile|crack
+lb_ensamble,tile,glue_strip,18,0.6313,0.0,Línea base clásica · ensamble,lb_ensamble|tile|glue_strip
+lb_ensamble,tile,gray_stroke,16,0.8561,0.125,Línea base clásica · ensamble,lb_ensamble|tile|gray_stroke
+lb_ensamble,tile,oil,18,1.0,1.0,Línea base clásica · ensamble,lb_ensamble|tile|oil
+lb_ensamble,tile,rough,15,0.6566,0.0667,Línea base clásica · ensamble,lb_ensamble|tile|rough
+lb_ensamble,toothbrush,defective,30,0.9389,0.6667,Línea base clásica · ensamble,lb_ensamble|toothbrush|defective
+lb_ensamble,transistor,bent_lead,10,0.755,0.0,Línea base clásica · ensamble,lb_ensamble|transistor|bent_lead
+lb_ensamble,transistor,cut_lead,10,0.5933,0.0,Línea base clásica · ensamble,lb_ensamble|transistor|cut_lead
+lb_ensamble,transistor,damaged_case,10,0.8617,0.2,Línea base clásica · ensamble,lb_ensamble|transistor|damaged_case
+lb_ensamble,transistor,misplaced,10,0.9917,0.6,Línea base clásica · ensamble,lb_ensamble|transistor|misplaced
+lb_ensamble,wood,color,8,1.0,0.75,Línea base clásica · ensamble,lb_ensamble|wood|color
+lb_ensamble,wood,combined,11,0.9617,0.7273,Línea base clásica · ensamble,lb_ensamble|wood|combined
+lb_ensamble,wood,hole,10,1.0,0.4,Línea base clásica · ensamble,lb_ensamble|wood|hole
+lb_ensamble,wood,liquid,10,0.7842,0.0,Línea base clásica · ensamble,lb_ensamble|wood|liquid
+lb_ensamble,wood,scratch,21,0.8647,0.0952,Línea base clásica · ensamble,lb_ensamble|wood|scratch
+lb_ensamble,zipper,broken_teeth,19,0.3684,0.0,Línea base clásica · ensamble,lb_ensamble|zipper|broken_teeth
+lb_ensamble,zipper,combined,16,0.5703,0.125,Línea base clásica · ensamble,lb_ensamble|zipper|combined
+lb_ensamble,zipper,fabric_border,17,0.7224,0.2353,Línea base clásica · ensamble,lb_ensamble|zipper|fabric_border
+lb_ensamble,zipper,fabric_interior,16,0.5762,0.0,Línea base clásica · ensamble,lb_ensamble|zipper|fabric_interior
+lb_ensamble,zipper,rough,17,0.579,0.0,Línea base clásica · ensamble,lb_ensamble|zipper|rough
+lb_ensamble,zipper,split_teeth,18,0.5226,0.0,Línea base clásica · ensamble,lb_ensamble|zipper|split_teeth
+lb_ensamble,zipper,squeezed_teeth,16,0.4473,0.0625,Línea base clásica · ensamble,lb_ensamble|zipper|squeezed_teeth
+lb_plantilla,bottle,broken_large,20,1.0,0.95,LB · plantilla,lb_plantilla|bottle|broken_large
+lb_plantilla,bottle,broken_small,22,0.9818,0.7727,LB · plantilla,lb_plantilla|bottle|broken_small
+lb_plantilla,bottle,contamination,21,0.9452,0.8095,LB · plantilla,lb_plantilla|bottle|contamination
+lb_plantilla,cable,bent_wire,13,0.5862,0.3077,LB · plantilla,lb_plantilla|cable|bent_wire
+lb_plantilla,cable,cable_swap,12,0.8204,0.75,LB · plantilla,lb_plantilla|cable|cable_swap
+lb_plantilla,cable,combined,11,0.9091,0.7273,LB · plantilla,lb_plantilla|cable|combined
+lb_plantilla,cable,cut_inner_insulation,14,0.6724,0.2143,LB · plantilla,lb_plantilla|cable|cut_inner_insulation
+lb_plantilla,cable,cut_outer_insulation,10,0.9862,0.9,LB · plantilla,lb_plantilla|cable|cut_outer_insulation
+lb_plantilla,cable,missing_cable,12,0.7672,0.0833,LB · plantilla,lb_plantilla|cable|missing_cable
+lb_plantilla,cable,missing_wire,10,0.5069,0.1,LB · plantilla,lb_plantilla|cable|missing_wire
+lb_plantilla,cable,poke_insulation,10,0.7397,0.1,LB · plantilla,lb_plantilla|cable|poke_insulation
+lb_plantilla,capsule,crack,23,0.7543,0.2174,LB · plantilla,lb_plantilla|capsule|crack
+lb_plantilla,capsule,faulty_imprint,22,0.5514,0.0,LB · plantilla,lb_plantilla|capsule|faulty_imprint
+lb_plantilla,capsule,poke,21,0.6418,0.0476,LB · plantilla,lb_plantilla|capsule|poke
+lb_plantilla,capsule,scratch,23,0.5992,0.0,LB · plantilla,lb_plantilla|capsule|scratch
+lb_plantilla,capsule,squeeze,20,0.9804,0.75,LB · plantilla,lb_plantilla|capsule|squeeze
+lb_plantilla,carpet,color,19,0.9417,0.9474,LB · plantilla,lb_plantilla|carpet|color
+lb_plantilla,carpet,cut,17,0.5399,0.2353,LB · plantilla,lb_plantilla|carpet|cut
+lb_plantilla,carpet,hole,17,0.7143,0.2941,LB · plantilla,lb_plantilla|carpet|hole
+lb_plantilla,carpet,metal_contamination,17,0.1702,0.0,LB · plantilla,lb_plantilla|carpet|metal_contamination
+lb_plantilla,carpet,thread,19,0.5451,0.2632,LB · plantilla,lb_plantilla|carpet|thread
+lb_plantilla,grid,bent,12,0.873,0.0,LB · plantilla,lb_plantilla|grid|bent
+lb_plantilla,grid,broken,12,0.8373,0.0,LB · plantilla,lb_plantilla|grid|broken
+lb_plantilla,grid,glue,11,0.8139,0.0,LB · plantilla,lb_plantilla|grid|glue
+lb_plantilla,grid,metal_contamination,11,0.8225,0.0,LB · plantilla,lb_plantilla|grid|metal_contamination
+lb_plantilla,grid,thread,11,0.7619,0.0,LB · plantilla,lb_plantilla|grid|thread
+lb_plantilla,hazelnut,crack,18,0.7625,0.1667,LB · plantilla,lb_plantilla|hazelnut|crack
+lb_plantilla,hazelnut,cut,17,0.5368,0.0,LB · plantilla,lb_plantilla|hazelnut|cut
+lb_plantilla,hazelnut,hole,18,0.7583,0.0,LB · plantilla,lb_plantilla|hazelnut|hole
+lb_plantilla,hazelnut,print,17,0.7985,0.0,LB · plantilla,lb_plantilla|hazelnut|print
+lb_plantilla,leather,color,19,0.6711,0.7895,LB · plantilla,lb_plantilla|leather|color
+lb_plantilla,leather,cut,19,0.8668,0.9474,LB · plantilla,lb_plantilla|leather|cut
+lb_plantilla,leather,fold,17,1.0,1.0,LB · plantilla,lb_plantilla|leather|fold
+lb_plantilla,leather,glue,19,0.8635,0.8947,LB · plantilla,lb_plantilla|leather|glue
+lb_plantilla,leather,poke,18,1.0,1.0,LB · plantilla,lb_plantilla|leather|poke
+lb_plantilla,metal_nut,bent,25,0.46,0.28,LB · plantilla,lb_plantilla|metal_nut|bent
+lb_plantilla,metal_nut,color,22,0.8554,0.5455,LB · plantilla,lb_plantilla|metal_nut|color
+lb_plantilla,metal_nut,flip,23,0.998,1.0,LB · plantilla,lb_plantilla|metal_nut|flip
+lb_plantilla,metal_nut,scratch,23,0.4921,0.0,LB · plantilla,lb_plantilla|metal_nut|scratch
+lb_plantilla,pill,color,25,0.5292,0.04,LB · plantilla,lb_plantilla|pill|color
+lb_plantilla,pill,combined,17,0.7624,0.0588,LB · plantilla,lb_plantilla|pill|combined
+lb_plantilla,pill,contamination,21,0.6941,0.2381,LB · plantilla,lb_plantilla|pill|contamination
+lb_plantilla,pill,crack,26,0.7781,0.1923,LB · plantilla,lb_plantilla|pill|crack
+lb_plantilla,pill,faulty_imprint,19,0.5182,0.0,LB · plantilla,lb_plantilla|pill|faulty_imprint
+lb_plantilla,pill,pill_type,9,0.7393,0.3333,LB · plantilla,lb_plantilla|pill|pill_type
+lb_plantilla,pill,scratch,24,0.6074,0.0833,LB · plantilla,lb_plantilla|pill|scratch
+lb_plantilla,screw,manipulated_front,24,0.4461,0.0833,LB · plantilla,lb_plantilla|screw|manipulated_front
+lb_plantilla,screw,scratch_head,24,0.4746,0.0417,LB · plantilla,lb_plantilla|screw|scratch_head
+lb_plantilla,screw,scratch_neck,25,0.4312,0.08,LB · plantilla,lb_plantilla|screw|scratch_neck
+lb_plantilla,screw,thread_side,23,0.4274,0.0,LB · plantilla,lb_plantilla|screw|thread_side
+lb_plantilla,screw,thread_top,23,0.5122,0.087,LB · plantilla,lb_plantilla|screw|thread_top
+lb_plantilla,tile,crack,17,0.7487,0.1765,LB · plantilla,lb_plantilla|tile|crack
+lb_plantilla,tile,glue_strip,18,0.6684,0.0,LB · plantilla,lb_plantilla|tile|glue_strip
+lb_plantilla,tile,gray_stroke,16,0.9678,0.8125,LB · plantilla,lb_plantilla|tile|gray_stroke
+lb_plantilla,tile,oil,18,1.0,1.0,LB · plantilla,lb_plantilla|tile|oil
+lb_plantilla,tile,rough,15,0.6364,0.0,LB · plantilla,lb_plantilla|tile|rough
+lb_plantilla,toothbrush,defective,30,0.9833,0.9,LB · plantilla,lb_plantilla|toothbrush|defective
+lb_plantilla,transistor,bent_lead,10,0.9417,0.3,LB · plantilla,lb_plantilla|transistor|bent_lead
+lb_plantilla,transistor,cut_lead,10,0.6367,0.2,LB · plantilla,lb_plantilla|transistor|cut_lead
+lb_plantilla,transistor,damaged_case,10,0.9383,0.7,LB · plantilla,lb_plantilla|transistor|damaged_case
+lb_plantilla,transistor,misplaced,10,1.0,1.0,LB · plantilla,lb_plantilla|transistor|misplaced
+lb_plantilla,wood,color,8,1.0,0.875,LB · plantilla,lb_plantilla|wood|color
+lb_plantilla,wood,combined,11,0.9426,0.8182,LB · plantilla,lb_plantilla|wood|combined
+lb_plantilla,wood,hole,10,0.9526,0.3,LB · plantilla,lb_plantilla|wood|hole
+lb_plantilla,wood,liquid,10,0.8895,0.0,LB · plantilla,lb_plantilla|wood|liquid
+lb_plantilla,wood,scratch,21,0.8596,0.1429,LB · plantilla,lb_plantilla|wood|scratch
+lb_plantilla,zipper,broken_teeth,19,0.7155,0.0526,LB · plantilla,lb_plantilla|zipper|broken_teeth
+lb_plantilla,zipper,combined,16,0.8359,0.125,LB · plantilla,lb_plantilla|zipper|combined
+lb_plantilla,zipper,fabric_border,17,0.9467,0.3529,LB · plantilla,lb_plantilla|zipper|fabric_border
+lb_plantilla,zipper,fabric_interior,16,0.8945,0.0,LB · plantilla,lb_plantilla|zipper|fabric_interior
+lb_plantilla,zipper,rough,17,0.7702,0.0,LB · plantilla,lb_plantilla|zipper|rough
+lb_plantilla,zipper,split_teeth,18,0.8455,0.0,LB · plantilla,lb_plantilla|zipper|split_teeth
+lb_plantilla,zipper,squeezed_teeth,16,0.6621,0.0,LB · plantilla,lb_plantilla|zipper|squeezed_teeth
+lb_segmentacion,bottle,broken_large,20,0.315,0.05,LB · segmentación,lb_segmentacion|bottle|broken_large
+lb_segmentacion,bottle,broken_small,22,0.3705,0.1364,LB · segmentación,lb_segmentacion|bottle|broken_small
+lb_segmentacion,bottle,contamination,21,0.369,0.1429,LB · segmentación,lb_segmentacion|bottle|contamination
+lb_segmentacion,cable,bent_wire,13,0.3886,0.0,LB · segmentación,lb_segmentacion|cable|bent_wire
+lb_segmentacion,cable,cable_swap,12,0.431,0.0,LB · segmentación,lb_segmentacion|cable|cable_swap
+lb_segmentacion,cable,combined,11,0.4216,0.0,LB · segmentación,lb_segmentacion|cable|combined
+lb_segmentacion,cable,cut_inner_insulation,14,0.6539,0.0,LB · segmentación,lb_segmentacion|cable|cut_inner_insulation
+lb_segmentacion,cable,cut_outer_insulation,10,0.8259,0.2,LB · segmentación,lb_segmentacion|cable|cut_outer_insulation
+lb_segmentacion,cable,missing_cable,12,0.2845,0.0,LB · segmentación,lb_segmentacion|cable|missing_cable
+lb_segmentacion,cable,missing_wire,10,0.3,0.0,LB · segmentación,lb_segmentacion|cable|missing_wire
+lb_segmentacion,cable,poke_insulation,10,0.3517,0.0,LB · segmentación,lb_segmentacion|cable|poke_insulation
+lb_segmentacion,capsule,crack,23,0.5917,0.0435,LB · segmentación,lb_segmentacion|capsule|crack
+lb_segmentacion,capsule,faulty_imprint,22,0.5099,0.0,LB · segmentación,lb_segmentacion|capsule|faulty_imprint
+lb_segmentacion,capsule,poke,21,0.3706,0.0,LB · segmentación,lb_segmentacion|capsule|poke
+lb_segmentacion,capsule,scratch,23,0.5104,0.0,LB · segmentación,lb_segmentacion|capsule|scratch
+lb_segmentacion,capsule,squeeze,20,0.5065,0.05,LB · segmentación,lb_segmentacion|capsule|squeeze
+lb_segmentacion,carpet,color,19,0.8722,0.1053,LB · segmentación,lb_segmentacion|carpet|color
+lb_segmentacion,carpet,cut,17,0.7164,0.1765,LB · segmentación,lb_segmentacion|carpet|cut
+lb_segmentacion,carpet,hole,17,0.937,0.1765,LB · segmentación,lb_segmentacion|carpet|hole
+lb_segmentacion,carpet,metal_contamination,17,0.2794,0.0,LB · segmentación,lb_segmentacion|carpet|metal_contamination
+lb_segmentacion,carpet,thread,19,0.7237,0.1579,LB · segmentación,lb_segmentacion|carpet|thread
+lb_segmentacion,grid,bent,12,0.7421,0.0,LB · segmentación,lb_segmentacion|grid|bent
+lb_segmentacion,grid,broken,12,0.7698,0.0,LB · segmentación,lb_segmentacion|grid|broken
+lb_segmentacion,grid,glue,11,0.5628,0.0,LB · segmentación,lb_segmentacion|grid|glue
+lb_segmentacion,grid,metal_contamination,11,0.7013,0.0,LB · segmentación,lb_segmentacion|grid|metal_contamination
+lb_segmentacion,grid,thread,11,0.4416,0.0,LB · segmentación,lb_segmentacion|grid|thread
+lb_segmentacion,hazelnut,crack,18,0.8778,0.5556,LB · segmentación,lb_segmentacion|hazelnut|crack
+lb_segmentacion,hazelnut,cut,17,0.7088,0.0,LB · segmentación,lb_segmentacion|hazelnut|cut
+lb_segmentacion,hazelnut,hole,18,0.9111,0.5,LB · segmentación,lb_segmentacion|hazelnut|hole
+lb_segmentacion,hazelnut,print,17,1.0,1.0,LB · segmentación,lb_segmentacion|hazelnut|print
+lb_segmentacion,leather,color,19,0.8257,0.1579,LB · segmentación,lb_segmentacion|leather|color
+lb_segmentacion,leather,cut,19,0.9901,0.6316,LB · segmentación,lb_segmentacion|leather|cut
+lb_segmentacion,leather,fold,17,1.0,1.0,LB · segmentación,lb_segmentacion|leather|fold
+lb_segmentacion,leather,glue,19,0.9375,0.7368,LB · segmentación,lb_segmentacion|leather|glue
+lb_segmentacion,leather,poke,18,1.0,1.0,LB · segmentación,lb_segmentacion|leather|poke
+lb_segmentacion,metal_nut,bent,25,0.2891,0.0,LB · segmentación,lb_segmentacion|metal_nut|bent
+lb_segmentacion,metal_nut,color,22,0.5847,0.1818,LB · segmentación,lb_segmentacion|metal_nut|color
+lb_segmentacion,metal_nut,flip,23,0.5968,0.087,LB · segmentación,lb_segmentacion|metal_nut|flip
+lb_segmentacion,metal_nut,scratch,23,0.3498,0.0,LB · segmentación,lb_segmentacion|metal_nut|scratch
+lb_segmentacion,pill,color,25,0.6385,0.2,LB · segmentación,lb_segmentacion|pill|color
+lb_segmentacion,pill,combined,17,0.6855,0.1765,LB · segmentación,lb_segmentacion|pill|combined
+lb_segmentacion,pill,contamination,21,0.6612,0.1429,LB · segmentación,lb_segmentacion|pill|contamination
+lb_segmentacion,pill,crack,26,0.5385,0.0385,LB · segmentación,lb_segmentacion|pill|crack
+lb_segmentacion,pill,faulty_imprint,19,0.4656,0.0,LB · segmentación,lb_segmentacion|pill|faulty_imprint
+lb_segmentacion,pill,pill_type,9,0.9957,0.6667,LB · segmentación,lb_segmentacion|pill|pill_type
+lb_segmentacion,pill,scratch,24,0.4872,0.0417,LB · segmentación,lb_segmentacion|pill|scratch
+lb_segmentacion,screw,manipulated_front,24,0.5325,0.0,LB · segmentación,lb_segmentacion|screw|manipulated_front
+lb_segmentacion,screw,scratch_head,24,0.5701,0.0,LB · segmentación,lb_segmentacion|screw|scratch_head
+lb_segmentacion,screw,scratch_neck,25,0.5561,0.0,LB · segmentación,lb_segmentacion|screw|scratch_neck
+lb_segmentacion,screw,thread_side,23,0.4645,0.0435,LB · segmentación,lb_segmentacion|screw|thread_side
+lb_segmentacion,screw,thread_top,23,0.632,0.0,LB · segmentación,lb_segmentacion|screw|thread_top
+lb_segmentacion,tile,crack,17,0.9216,0.1765,LB · segmentación,lb_segmentacion|tile|crack
+lb_segmentacion,tile,glue_strip,18,0.6296,0.0,LB · segmentación,lb_segmentacion|tile|glue_strip
+lb_segmentacion,tile,gray_stroke,16,0.7689,0.0,LB · segmentación,lb_segmentacion|tile|gray_stroke
+lb_segmentacion,tile,oil,18,0.9848,0.5556,LB · segmentación,lb_segmentacion|tile|oil
+lb_segmentacion,tile,rough,15,0.6646,0.0667,LB · segmentación,lb_segmentacion|tile|rough
+lb_segmentacion,toothbrush,defective,30,0.5222,0.0667,LB · segmentación,lb_segmentacion|toothbrush|defective
+lb_segmentacion,transistor,bent_lead,10,0.365,0.1,LB · segmentación,lb_segmentacion|transistor|bent_lead
+lb_segmentacion,transistor,cut_lead,10,0.4383,0.0,LB · segmentación,lb_segmentacion|transistor|cut_lead
+lb_segmentacion,transistor,damaged_case,10,0.2383,0.0,LB · segmentación,lb_segmentacion|transistor|damaged_case
+lb_segmentacion,transistor,misplaced,10,0.3783,0.1,LB · segmentación,lb_segmentacion|transistor|misplaced
+lb_segmentacion,wood,color,8,1.0,0.75,LB · segmentación,lb_segmentacion|wood|color
+lb_segmentacion,wood,combined,11,0.9665,0.6364,LB · segmentación,lb_segmentacion|wood|combined
+lb_segmentacion,wood,hole,10,1.0,0.4,LB · segmentación,lb_segmentacion|wood|hole
+lb_segmentacion,wood,liquid,10,0.7,0.0,LB · segmentación,lb_segmentacion|wood|liquid
+lb_segmentacion,wood,scratch,21,0.8346,0.0952,LB · segmentación,lb_segmentacion|wood|scratch
+lb_segmentacion,zipper,broken_teeth,19,0.4326,0.1579,LB · segmentación,lb_segmentacion|zipper|broken_teeth
+lb_segmentacion,zipper,combined,16,0.6641,0.25,LB · segmentación,lb_segmentacion|zipper|combined
+lb_segmentacion,zipper,fabric_border,17,0.4982,0.1176,LB · segmentación,lb_segmentacion|zipper|fabric_border
+lb_segmentacion,zipper,fabric_interior,16,0.2188,0.0,LB · segmentación,lb_segmentacion|zipper|fabric_interior
+lb_segmentacion,zipper,rough,17,0.8199,0.4118,LB · segmentación,lb_segmentacion|zipper|rough
+lb_segmentacion,zipper,split_teeth,18,0.4271,0.0556,LB · segmentación,lb_segmentacion|zipper|split_teeth
+lb_segmentacion,zipper,squeezed_teeth,16,0.4238,0.0,LB · segmentación,lb_segmentacion|zipper|squeezed_teeth
+padim_vgg16,bottle,broken_large,20,1.0,1.0,PaDiM · VGG16 + Gauss,padim_vgg16|bottle|broken_large
+padim_vgg16,bottle,broken_small,22,1.0,1.0,PaDiM · VGG16 + Gauss,padim_vgg16|bottle|broken_small
+padim_vgg16,bottle,contamination,21,0.981,0.9048,PaDiM · VGG16 + Gauss,padim_vgg16|bottle|contamination
+padim_vgg16,cable,bent_wire,13,0.8448,0.3846,PaDiM · VGG16 + Gauss,padim_vgg16|cable|bent_wire
+padim_vgg16,cable,cable_swap,12,0.6825,0.0833,PaDiM · VGG16 + Gauss,padim_vgg16|cable|cable_swap
+padim_vgg16,cable,combined,11,0.8386,0.4545,PaDiM · VGG16 + Gauss,padim_vgg16|cable|combined
+padim_vgg16,cable,cut_inner_insulation,14,0.7057,0.2143,PaDiM · VGG16 + Gauss,padim_vgg16|cable|cut_inner_insulation
+padim_vgg16,cable,cut_outer_insulation,10,1.0,1.0,PaDiM · VGG16 + Gauss,padim_vgg16|cable|cut_outer_insulation
+padim_vgg16,cable,missing_cable,12,0.4626,0.0,PaDiM · VGG16 + Gauss,padim_vgg16|cable|missing_cable
+padim_vgg16,cable,missing_wire,10,0.4483,0.1,PaDiM · VGG16 + Gauss,padim_vgg16|cable|missing_wire
+padim_vgg16,cable,poke_insulation,10,0.8793,0.4,PaDiM · VGG16 + Gauss,padim_vgg16|cable|poke_insulation
+padim_vgg16,capsule,crack,23,0.9471,0.8696,PaDiM · VGG16 + Gauss,padim_vgg16|capsule|crack
+padim_vgg16,capsule,faulty_imprint,22,0.8518,0.2727,PaDiM · VGG16 + Gauss,padim_vgg16|capsule|faulty_imprint
+padim_vgg16,capsule,poke,21,0.9027,0.381,PaDiM · VGG16 + Gauss,padim_vgg16|capsule|poke
+padim_vgg16,capsule,scratch,23,0.896,0.5217,PaDiM · VGG16 + Gauss,padim_vgg16|capsule|scratch
+padim_vgg16,capsule,squeeze,20,0.9848,1.0,PaDiM · VGG16 + Gauss,padim_vgg16|capsule|squeeze
+padim_vgg16,carpet,color,19,0.9211,0.9474,PaDiM · VGG16 + Gauss,padim_vgg16|carpet|color
+padim_vgg16,carpet,cut,17,0.9874,1.0,PaDiM · VGG16 + Gauss,padim_vgg16|carpet|cut
+padim_vgg16,carpet,hole,17,1.0,1.0,PaDiM · VGG16 + Gauss,padim_vgg16|carpet|hole
+padim_vgg16,carpet,metal_contamination,17,0.834,0.7647,PaDiM · VGG16 + Gauss,padim_vgg16|carpet|metal_contamination
+padim_vgg16,carpet,thread,19,0.8158,0.7895,PaDiM · VGG16 + Gauss,padim_vgg16|carpet|thread
+padim_vgg16,grid,bent,12,0.9286,0.1667,PaDiM · VGG16 + Gauss,padim_vgg16|grid|bent
+padim_vgg16,grid,broken,12,0.9563,0.0833,PaDiM · VGG16 + Gauss,padim_vgg16|grid|broken
+padim_vgg16,grid,glue,11,0.9221,0.3636,PaDiM · VGG16 + Gauss,padim_vgg16|grid|glue
+padim_vgg16,grid,metal_contamination,11,0.8918,0.0,PaDiM · VGG16 + Gauss,padim_vgg16|grid|metal_contamination
+padim_vgg16,grid,thread,11,0.8658,0.0,PaDiM · VGG16 + Gauss,padim_vgg16|grid|thread
+padim_vgg16,hazelnut,crack,18,0.5014,0.1667,PaDiM · VGG16 + Gauss,padim_vgg16|hazelnut|crack
+padim_vgg16,hazelnut,cut,17,0.5809,0.2353,PaDiM · VGG16 + Gauss,padim_vgg16|hazelnut|cut
+padim_vgg16,hazelnut,hole,18,0.3014,0.0,PaDiM · VGG16 + Gauss,padim_vgg16|hazelnut|hole
+padim_vgg16,hazelnut,print,17,0.2941,0.0,PaDiM · VGG16 + Gauss,padim_vgg16|hazelnut|print
+padim_vgg16,leather,color,19,1.0,1.0,PaDiM · VGG16 + Gauss,padim_vgg16|leather|color
+padim_vgg16,leather,cut,19,1.0,1.0,PaDiM · VGG16 + Gauss,padim_vgg16|leather|cut
+padim_vgg16,leather,fold,17,1.0,1.0,PaDiM · VGG16 + Gauss,padim_vgg16|leather|fold
+padim_vgg16,leather,glue,19,1.0,1.0,PaDiM · VGG16 + Gauss,padim_vgg16|leather|glue
+padim_vgg16,leather,poke,18,1.0,1.0,PaDiM · VGG16 + Gauss,padim_vgg16|leather|poke
+padim_vgg16,metal_nut,bent,25,0.7327,0.32,PaDiM · VGG16 + Gauss,padim_vgg16|metal_nut|bent
+padim_vgg16,metal_nut,color,22,0.7541,0.3636,PaDiM · VGG16 + Gauss,padim_vgg16|metal_nut|color
+padim_vgg16,metal_nut,flip,23,1.0,1.0,PaDiM · VGG16 + Gauss,padim_vgg16|metal_nut|flip
+padim_vgg16,metal_nut,scratch,23,0.6542,0.1304,PaDiM · VGG16 + Gauss,padim_vgg16|metal_nut|scratch
+padim_vgg16,pill,color,25,0.8123,0.12,PaDiM · VGG16 + Gauss,padim_vgg16|pill|color
+padim_vgg16,pill,combined,17,0.9367,0.5882,PaDiM · VGG16 + Gauss,padim_vgg16|pill|combined
+padim_vgg16,pill,contamination,21,0.7619,0.1429,PaDiM · VGG16 + Gauss,padim_vgg16|pill|contamination
+padim_vgg16,pill,crack,26,0.8195,0.2692,PaDiM · VGG16 + Gauss,padim_vgg16|pill|crack
+padim_vgg16,pill,faulty_imprint,19,0.8381,0.2105,PaDiM · VGG16 + Gauss,padim_vgg16|pill|faulty_imprint
+padim_vgg16,pill,pill_type,9,0.9829,0.7778,PaDiM · VGG16 + Gauss,padim_vgg16|pill|pill_type
+padim_vgg16,pill,scratch,24,0.8029,0.1667,PaDiM · VGG16 + Gauss,padim_vgg16|pill|scratch
+padim_vgg16,screw,manipulated_front,24,0.8679,0.125,PaDiM · VGG16 + Gauss,padim_vgg16|screw|manipulated_front
+padim_vgg16,screw,scratch_head,24,0.5986,0.0417,PaDiM · VGG16 + Gauss,padim_vgg16|screw|scratch_head
+padim_vgg16,screw,scratch_neck,25,0.6361,0.04,PaDiM · VGG16 + Gauss,padim_vgg16|screw|scratch_neck
+padim_vgg16,screw,thread_side,23,0.7646,0.0435,PaDiM · VGG16 + Gauss,padim_vgg16|screw|thread_side
+padim_vgg16,screw,thread_top,23,0.7041,0.087,PaDiM · VGG16 + Gauss,padim_vgg16|screw|thread_top
+padim_vgg16,tile,crack,17,0.9911,0.7059,PaDiM · VGG16 + Gauss,padim_vgg16|tile|crack
+padim_vgg16,tile,glue_strip,18,1.0,1.0,PaDiM · VGG16 + Gauss,padim_vgg16|tile|glue_strip
+padim_vgg16,tile,gray_stroke,16,0.5322,0.0625,PaDiM · VGG16 + Gauss,padim_vgg16|tile|gray_stroke
+padim_vgg16,tile,oil,18,0.9865,0.5556,PaDiM · VGG16 + Gauss,padim_vgg16|tile|oil
+padim_vgg16,tile,rough,15,1.0,0.6667,PaDiM · VGG16 + Gauss,padim_vgg16|tile|rough
+padim_vgg16,toothbrush,defective,30,0.8917,0.8333,PaDiM · VGG16 + Gauss,padim_vgg16|toothbrush|defective
+padim_vgg16,transistor,bent_lead,10,0.9517,0.8,PaDiM · VGG16 + Gauss,padim_vgg16|transistor|bent_lead
+padim_vgg16,transistor,cut_lead,10,0.8683,0.3,PaDiM · VGG16 + Gauss,padim_vgg16|transistor|cut_lead
+padim_vgg16,transistor,damaged_case,10,0.89,0.5,PaDiM · VGG16 + Gauss,padim_vgg16|transistor|damaged_case
+padim_vgg16,transistor,misplaced,10,1.0,1.0,PaDiM · VGG16 + Gauss,padim_vgg16|transistor|misplaced
+padim_vgg16,wood,color,8,1.0,0.875,PaDiM · VGG16 + Gauss,padim_vgg16|wood|color
+padim_vgg16,wood,combined,11,1.0,0.7273,PaDiM · VGG16 + Gauss,padim_vgg16|wood|combined
+padim_vgg16,wood,hole,10,0.9789,0.6,PaDiM · VGG16 + Gauss,padim_vgg16|wood|hole
+padim_vgg16,wood,liquid,10,0.9842,0.0,PaDiM · VGG16 + Gauss,padim_vgg16|wood|liquid
+padim_vgg16,wood,scratch,21,0.9749,0.0476,PaDiM · VGG16 + Gauss,padim_vgg16|wood|scratch
+padim_vgg16,zipper,broken_teeth,19,0.9211,0.5263,PaDiM · VGG16 + Gauss,padim_vgg16|zipper|broken_teeth
+padim_vgg16,zipper,combined,16,0.9648,0.75,PaDiM · VGG16 + Gauss,padim_vgg16|zipper|combined
+padim_vgg16,zipper,fabric_border,17,0.9853,0.9412,PaDiM · VGG16 + Gauss,padim_vgg16|zipper|fabric_border
+padim_vgg16,zipper,fabric_interior,16,0.8438,0.0,PaDiM · VGG16 + Gauss,padim_vgg16|zipper|fabric_interior
+padim_vgg16,zipper,rough,17,0.9577,0.6471,PaDiM · VGG16 + Gauss,padim_vgg16|zipper|rough
+padim_vgg16,zipper,split_teeth,18,0.9531,0.7778,PaDiM · VGG16 + Gauss,padim_vgg16|zipper|split_teeth
+padim_vgg16,zipper,squeezed_teeth,16,0.8691,0.1875,PaDiM · VGG16 + Gauss,padim_vgg16|zipper|squeezed_teeth
+patchcore_resnet50,bottle,broken_large,20,1.0,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|bottle|broken_large
+patchcore_resnet50,bottle,broken_small,22,1.0,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|bottle|broken_small
+patchcore_resnet50,bottle,contamination,21,1.0,0.9048,PatchCore · ResNet50 + kNN,patchcore_resnet50|bottle|contamination
+patchcore_resnet50,cable,bent_wire,13,1.0,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|cable|bent_wire
+patchcore_resnet50,cable,cable_swap,12,0.9224,0.0833,PatchCore · ResNet50 + kNN,patchcore_resnet50|cable|cable_swap
+patchcore_resnet50,cable,combined,11,1.0,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|cable|combined
+patchcore_resnet50,cable,cut_inner_insulation,14,0.9963,0.9286,PatchCore · ResNet50 + kNN,patchcore_resnet50|cable|cut_inner_insulation
+patchcore_resnet50,cable,cut_outer_insulation,10,1.0,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|cable|cut_outer_insulation
+patchcore_resnet50,cable,missing_cable,12,1.0,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|cable|missing_cable
+patchcore_resnet50,cable,missing_wire,10,1.0,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|cable|missing_wire
+patchcore_resnet50,cable,poke_insulation,10,0.981,0.7,PatchCore · ResNet50 + kNN,patchcore_resnet50|cable|poke_insulation
+patchcore_resnet50,capsule,crack,23,0.9716,0.5217,PatchCore · ResNet50 + kNN,patchcore_resnet50|capsule|crack
+patchcore_resnet50,capsule,faulty_imprint,22,0.9704,0.0909,PatchCore · ResNet50 + kNN,patchcore_resnet50|capsule|faulty_imprint
+patchcore_resnet50,capsule,poke,21,0.9917,0.381,PatchCore · ResNet50 + kNN,patchcore_resnet50|capsule|poke
+patchcore_resnet50,capsule,scratch,23,0.9698,0.3913,PatchCore · ResNet50 + kNN,patchcore_resnet50|capsule|scratch
+patchcore_resnet50,capsule,squeeze,20,1.0,0.95,PatchCore · ResNet50 + kNN,patchcore_resnet50|capsule|squeeze
+patchcore_resnet50,carpet,color,19,0.9079,0.8947,PatchCore · ResNet50 + kNN,patchcore_resnet50|carpet|color
+patchcore_resnet50,carpet,cut,17,0.9853,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|carpet|cut
+patchcore_resnet50,carpet,hole,17,0.9622,0.9412,PatchCore · ResNet50 + kNN,patchcore_resnet50|carpet|hole
+patchcore_resnet50,carpet,metal_contamination,17,0.7185,0.5882,PatchCore · ResNet50 + kNN,patchcore_resnet50|carpet|metal_contamination
+patchcore_resnet50,carpet,thread,19,0.8477,0.7368,PatchCore · ResNet50 + kNN,patchcore_resnet50|carpet|thread
+patchcore_resnet50,grid,bent,12,0.7103,0.0833,PatchCore · ResNet50 + kNN,patchcore_resnet50|grid|bent
+patchcore_resnet50,grid,broken,12,0.6548,0.1667,PatchCore · ResNet50 + kNN,patchcore_resnet50|grid|broken
+patchcore_resnet50,grid,glue,11,0.6104,0.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|grid|glue
+patchcore_resnet50,grid,metal_contamination,11,0.7879,0.1818,PatchCore · ResNet50 + kNN,patchcore_resnet50|grid|metal_contamination
+patchcore_resnet50,grid,thread,11,0.7143,0.2727,PatchCore · ResNet50 + kNN,patchcore_resnet50|grid|thread
+patchcore_resnet50,hazelnut,crack,18,1.0,0.9444,PatchCore · ResNet50 + kNN,patchcore_resnet50|hazelnut|crack
+patchcore_resnet50,hazelnut,cut,17,0.9971,0.9412,PatchCore · ResNet50 + kNN,patchcore_resnet50|hazelnut|cut
+patchcore_resnet50,hazelnut,hole,18,1.0,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|hazelnut|hole
+patchcore_resnet50,hazelnut,print,17,1.0,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|hazelnut|print
+patchcore_resnet50,leather,color,19,0.9786,0.9474,PatchCore · ResNet50 + kNN,patchcore_resnet50|leather|color
+patchcore_resnet50,leather,cut,19,1.0,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|leather|cut
+patchcore_resnet50,leather,fold,17,1.0,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|leather|fold
+patchcore_resnet50,leather,glue,19,0.9161,0.8947,PatchCore · ResNet50 + kNN,patchcore_resnet50|leather|glue
+patchcore_resnet50,leather,poke,18,1.0,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|leather|poke
+patchcore_resnet50,metal_nut,bent,25,0.9982,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|metal_nut|bent
+patchcore_resnet50,metal_nut,color,22,0.9938,0.9545,PatchCore · ResNet50 + kNN,patchcore_resnet50|metal_nut|color
+patchcore_resnet50,metal_nut,flip,23,1.0,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|metal_nut|flip
+patchcore_resnet50,metal_nut,scratch,23,0.9921,0.9565,PatchCore · ResNet50 + kNN,patchcore_resnet50|metal_nut|scratch
+patchcore_resnet50,pill,color,25,0.8785,0.6,PatchCore · ResNet50 + kNN,patchcore_resnet50|pill|color
+patchcore_resnet50,pill,combined,17,0.9774,0.8824,PatchCore · ResNet50 + kNN,patchcore_resnet50|pill|combined
+patchcore_resnet50,pill,contamination,21,0.956,0.619,PatchCore · ResNet50 + kNN,patchcore_resnet50|pill|contamination
+patchcore_resnet50,pill,crack,26,0.7219,0.1923,PatchCore · ResNet50 + kNN,patchcore_resnet50|pill|crack
+patchcore_resnet50,pill,faulty_imprint,19,0.9109,0.5789,PatchCore · ResNet50 + kNN,patchcore_resnet50|pill|faulty_imprint
+patchcore_resnet50,pill,pill_type,9,1.0,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|pill|pill_type
+patchcore_resnet50,pill,scratch,24,0.9295,0.625,PatchCore · ResNet50 + kNN,patchcore_resnet50|pill|scratch
+patchcore_resnet50,screw,manipulated_front,24,0.8943,0.5417,PatchCore · ResNet50 + kNN,patchcore_resnet50|screw|manipulated_front
+patchcore_resnet50,screw,scratch_head,24,0.9543,0.7083,PatchCore · ResNet50 + kNN,patchcore_resnet50|screw|scratch_head
+patchcore_resnet50,screw,scratch_neck,25,0.9824,0.92,PatchCore · ResNet50 + kNN,patchcore_resnet50|screw|scratch_neck
+patchcore_resnet50,screw,thread_side,23,0.8685,0.4348,PatchCore · ResNet50 + kNN,patchcore_resnet50|screw|thread_side
+patchcore_resnet50,screw,thread_top,23,0.9661,0.8261,PatchCore · ResNet50 + kNN,patchcore_resnet50|screw|thread_top
+patchcore_resnet50,tile,crack,17,1.0,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|tile|crack
+patchcore_resnet50,tile,glue_strip,18,1.0,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|tile|glue_strip
+patchcore_resnet50,tile,gray_stroke,16,0.8788,0.3125,PatchCore · ResNet50 + kNN,patchcore_resnet50|tile|gray_stroke
+patchcore_resnet50,tile,oil,18,1.0,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|tile|oil
+patchcore_resnet50,tile,rough,15,0.9273,0.7333,PatchCore · ResNet50 + kNN,patchcore_resnet50|tile|rough
+patchcore_resnet50,toothbrush,defective,30,0.9028,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|toothbrush|defective
+patchcore_resnet50,transistor,bent_lead,10,0.97,0.6,PatchCore · ResNet50 + kNN,patchcore_resnet50|transistor|bent_lead
+patchcore_resnet50,transistor,cut_lead,10,0.9133,0.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|transistor|cut_lead
+patchcore_resnet50,transistor,damaged_case,10,0.9633,0.6,PatchCore · ResNet50 + kNN,patchcore_resnet50|transistor|damaged_case
+patchcore_resnet50,transistor,misplaced,10,0.9383,0.6,PatchCore · ResNet50 + kNN,patchcore_resnet50|transistor|misplaced
+patchcore_resnet50,wood,color,8,1.0,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|wood|color
+patchcore_resnet50,wood,combined,11,1.0,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|wood|combined
+patchcore_resnet50,wood,hole,10,0.9316,0.8,PatchCore · ResNet50 + kNN,patchcore_resnet50|wood|hole
+patchcore_resnet50,wood,liquid,10,0.9947,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|wood|liquid
+patchcore_resnet50,wood,scratch,21,0.9599,0.9524,PatchCore · ResNet50 + kNN,patchcore_resnet50|wood|scratch
+patchcore_resnet50,zipper,broken_teeth,19,0.9622,0.8421,PatchCore · ResNet50 + kNN,patchcore_resnet50|zipper|broken_teeth
+patchcore_resnet50,zipper,combined,16,0.9844,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|zipper|combined
+patchcore_resnet50,zipper,fabric_border,17,0.9982,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|zipper|fabric_border
+patchcore_resnet50,zipper,fabric_interior,16,0.916,0.8125,PatchCore · ResNet50 + kNN,patchcore_resnet50|zipper|fabric_interior
+patchcore_resnet50,zipper,rough,17,0.9798,1.0,PatchCore · ResNet50 + kNN,patchcore_resnet50|zipper|rough
+patchcore_resnet50,zipper,split_teeth,18,0.9618,0.9444,PatchCore · ResNet50 + kNN,patchcore_resnet50|zipper|split_teeth
+patchcore_resnet50,zipper,squeezed_teeth,16,0.9453,0.75,PatchCore · ResNet50 + kNN,patchcore_resnet50|zipper|squeezed_teeth
+vae_dae,bottle,broken_large,20,0.995,1.0,VAE / Denoising AE,vae_dae|bottle|broken_large
+vae_dae,bottle,broken_small,22,0.9773,1.0,VAE / Denoising AE,vae_dae|bottle|broken_small
+vae_dae,bottle,contamination,21,0.9762,0.9048,VAE / Denoising AE,vae_dae|bottle|contamination
+vae_dae,cable,bent_wire,13,0.8886,0.2308,VAE / Denoising AE,vae_dae|cable|bent_wire
+vae_dae,cable,cable_swap,12,0.8592,0.0833,VAE / Denoising AE,vae_dae|cable|cable_swap
+vae_dae,cable,combined,11,0.9451,0.0909,VAE / Denoising AE,vae_dae|cable|combined
+vae_dae,cable,cut_inner_insulation,14,0.8522,0.2143,VAE / Denoising AE,vae_dae|cable|cut_inner_insulation
+vae_dae,cable,cut_outer_insulation,10,0.9638,0.3,VAE / Denoising AE,vae_dae|cable|cut_outer_insulation
+vae_dae,cable,missing_cable,12,0.783,0.0,VAE / Denoising AE,vae_dae|cable|missing_cable
+vae_dae,cable,missing_wire,10,0.3759,0.0,VAE / Denoising AE,vae_dae|cable|missing_wire
+vae_dae,cable,poke_insulation,10,0.919,0.0,VAE / Denoising AE,vae_dae|cable|poke_insulation
+vae_dae,capsule,crack,23,0.7524,0.2609,VAE / Denoising AE,vae_dae|capsule|crack
+vae_dae,capsule,faulty_imprint,22,0.5257,0.0455,VAE / Denoising AE,vae_dae|capsule|faulty_imprint
+vae_dae,capsule,poke,21,0.6418,0.0476,VAE / Denoising AE,vae_dae|capsule|poke
+vae_dae,capsule,scratch,23,0.6824,0.0435,VAE / Denoising AE,vae_dae|capsule|scratch
+vae_dae,capsule,squeeze,20,0.9522,0.5,VAE / Denoising AE,vae_dae|capsule|squeeze
+vae_dae,carpet,color,19,0.5094,0.0,VAE / Denoising AE,vae_dae|carpet|color
+vae_dae,carpet,cut,17,0.1303,0.0,VAE / Denoising AE,vae_dae|carpet|cut
+vae_dae,carpet,hole,17,0.5336,0.0,VAE / Denoising AE,vae_dae|carpet|hole
+vae_dae,carpet,metal_contamination,17,0.0714,0.0,VAE / Denoising AE,vae_dae|carpet|metal_contamination
+vae_dae,carpet,thread,19,0.3177,0.0,VAE / Denoising AE,vae_dae|carpet|thread
+vae_dae,grid,bent,12,0.8492,0.0,VAE / Denoising AE,vae_dae|grid|bent
+vae_dae,grid,broken,12,0.8214,0.0,VAE / Denoising AE,vae_dae|grid|broken
+vae_dae,grid,glue,11,0.8225,0.0,VAE / Denoising AE,vae_dae|grid|glue
+vae_dae,grid,metal_contamination,11,0.8874,0.0,VAE / Denoising AE,vae_dae|grid|metal_contamination
+vae_dae,grid,thread,11,0.4286,0.0,VAE / Denoising AE,vae_dae|grid|thread
+vae_dae,hazelnut,crack,18,0.9028,0.7222,VAE / Denoising AE,vae_dae|hazelnut|crack
+vae_dae,hazelnut,cut,17,0.8779,0.0588,VAE / Denoising AE,vae_dae|hazelnut|cut
+vae_dae,hazelnut,hole,18,0.9417,0.3333,VAE / Denoising AE,vae_dae|hazelnut|hole
+vae_dae,hazelnut,print,17,1.0,1.0,VAE / Denoising AE,vae_dae|hazelnut|print
+vae_dae,leather,color,19,0.4408,0.3684,VAE / Denoising AE,vae_dae|leather|color
+vae_dae,leather,cut,19,0.3865,0.2632,VAE / Denoising AE,vae_dae|leather|cut
+vae_dae,leather,fold,17,0.7243,0.6471,VAE / Denoising AE,vae_dae|leather|fold
+vae_dae,leather,glue,19,0.472,0.4211,VAE / Denoising AE,vae_dae|leather|glue
+vae_dae,leather,poke,18,0.9219,1.0,VAE / Denoising AE,vae_dae|leather|poke
+vae_dae,metal_nut,bent,25,0.8891,0.72,VAE / Denoising AE,vae_dae|metal_nut|bent
+vae_dae,metal_nut,color,22,0.6921,0.4545,VAE / Denoising AE,vae_dae|metal_nut|color
+vae_dae,metal_nut,flip,23,1.0,1.0,VAE / Denoising AE,vae_dae|metal_nut|flip
+vae_dae,metal_nut,scratch,23,0.7688,0.3913,VAE / Denoising AE,vae_dae|metal_nut|scratch
+vae_dae,pill,color,25,0.5108,0.08,VAE / Denoising AE,vae_dae|pill|color
+vae_dae,pill,combined,17,0.9434,0.5294,VAE / Denoising AE,vae_dae|pill|combined
+vae_dae,pill,contamination,21,0.7234,0.1429,VAE / Denoising AE,vae_dae|pill|contamination
+vae_dae,pill,crack,26,0.7988,0.3077,VAE / Denoising AE,vae_dae|pill|crack
+vae_dae,pill,faulty_imprint,19,0.581,0.0,VAE / Denoising AE,vae_dae|pill|faulty_imprint
+vae_dae,pill,pill_type,9,0.4658,0.4444,VAE / Denoising AE,vae_dae|pill|pill_type
+vae_dae,pill,scratch,24,0.7099,0.125,VAE / Denoising AE,vae_dae|pill|scratch
+vae_dae,screw,manipulated_front,24,0.3608,0.0417,VAE / Denoising AE,vae_dae|screw|manipulated_front
+vae_dae,screw,scratch_head,24,0.4705,0.0417,VAE / Denoising AE,vae_dae|screw|scratch_head
+vae_dae,screw,scratch_neck,25,0.2927,0.0,VAE / Denoising AE,vae_dae|screw|scratch_neck
+vae_dae,screw,thread_side,23,0.3128,0.0435,VAE / Denoising AE,vae_dae|screw|thread_side
+vae_dae,screw,thread_top,23,0.4931,0.1304,VAE / Denoising AE,vae_dae|screw|thread_top
+vae_dae,tile,crack,17,0.7326,0.0,VAE / Denoising AE,vae_dae|tile|crack
+vae_dae,tile,glue_strip,18,0.3771,0.0,VAE / Denoising AE,vae_dae|tile|glue_strip
+vae_dae,tile,gray_stroke,16,0.4015,0.0,VAE / Denoising AE,vae_dae|tile|gray_stroke
+vae_dae,tile,oil,18,0.2912,0.0,VAE / Denoising AE,vae_dae|tile|oil
+vae_dae,tile,rough,15,0.3798,0.0,VAE / Denoising AE,vae_dae|tile|rough
+vae_dae,toothbrush,defective,30,0.925,0.8,VAE / Denoising AE,vae_dae|toothbrush|defective
+vae_dae,transistor,bent_lead,10,0.9567,0.8,VAE / Denoising AE,vae_dae|transistor|bent_lead
+vae_dae,transistor,cut_lead,10,0.6567,0.2,VAE / Denoising AE,vae_dae|transistor|cut_lead
+vae_dae,transistor,damaged_case,10,0.9383,0.7,VAE / Denoising AE,vae_dae|transistor|damaged_case
+vae_dae,transistor,misplaced,10,0.9783,0.8,VAE / Denoising AE,vae_dae|transistor|misplaced
+vae_dae,wood,color,8,0.9342,0.0,VAE / Denoising AE,vae_dae|wood|color
+vae_dae,wood,combined,11,1.0,0.1818,VAE / Denoising AE,vae_dae|wood|combined
+vae_dae,wood,hole,10,1.0,0.0,VAE / Denoising AE,vae_dae|wood|hole
+vae_dae,wood,liquid,10,0.8211,0.0,VAE / Denoising AE,vae_dae|wood|liquid
+vae_dae,wood,scratch,21,0.9925,0.0476,VAE / Denoising AE,vae_dae|wood|scratch
+vae_dae,zipper,broken_teeth,19,0.7188,0.0,VAE / Denoising AE,vae_dae|zipper|broken_teeth
+vae_dae,zipper,combined,16,0.9395,0.375,VAE / Denoising AE,vae_dae|zipper|combined
+vae_dae,zipper,fabric_border,17,0.9963,0.8235,VAE / Denoising AE,vae_dae|zipper|fabric_border
+vae_dae,zipper,fabric_interior,16,0.6562,0.0,VAE / Denoising AE,vae_dae|zipper|fabric_interior
+vae_dae,zipper,rough,17,0.8566,0.0588,VAE / Denoising AE,vae_dae|zipper|rough
+vae_dae,zipper,split_teeth,18,0.9219,0.2222,VAE / Denoising AE,vae_dae|zipper|split_teeth
+vae_dae,zipper,squeezed_teeth,16,0.8164,0.0,VAE / Denoising AE,vae_dae|zipper|squeezed_teeth
+vgg16_dfr,bottle,broken_large,20,1.0,1.0,DFR · AE de características VGG16,vgg16_dfr|bottle|broken_large
+vgg16_dfr,bottle,broken_small,22,1.0,0.9545,DFR · AE de características VGG16,vgg16_dfr|bottle|broken_small
+vgg16_dfr,bottle,contamination,21,0.8405,0.381,DFR · AE de características VGG16,vgg16_dfr|bottle|contamination
+vgg16_dfr,cable,bent_wire,13,0.9615,0.8462,DFR · AE de características VGG16,vgg16_dfr|cable|bent_wire
+vgg16_dfr,cable,cable_swap,12,0.4325,0.0833,DFR · AE de características VGG16,vgg16_dfr|cable|cable_swap
+vgg16_dfr,cable,combined,11,0.4875,0.3636,DFR · AE de características VGG16,vgg16_dfr|cable|combined
+vgg16_dfr,cable,cut_inner_insulation,14,0.8116,0.4286,DFR · AE de características VGG16,vgg16_dfr|cable|cut_inner_insulation
+vgg16_dfr,cable,cut_outer_insulation,10,0.6172,0.1,DFR · AE de características VGG16,vgg16_dfr|cable|cut_outer_insulation
+vgg16_dfr,cable,missing_cable,12,0.0977,0.0,DFR · AE de características VGG16,vgg16_dfr|cable|missing_cable
+vgg16_dfr,cable,missing_wire,10,0.2155,0.0,DFR · AE de características VGG16,vgg16_dfr|cable|missing_wire
+vgg16_dfr,cable,poke_insulation,10,0.3345,0.0,DFR · AE de características VGG16,vgg16_dfr|cable|poke_insulation
+vgg16_dfr,capsule,crack,23,0.7146,0.3043,DFR · AE de características VGG16,vgg16_dfr|capsule|crack
+vgg16_dfr,capsule,faulty_imprint,22,0.5138,0.1364,DFR · AE de características VGG16,vgg16_dfr|capsule|faulty_imprint
+vgg16_dfr,capsule,poke,21,0.5528,0.0952,DFR · AE de características VGG16,vgg16_dfr|capsule|poke
+vgg16_dfr,capsule,scratch,23,0.5425,0.0,DFR · AE de características VGG16,vgg16_dfr|capsule|scratch
+vgg16_dfr,capsule,squeeze,20,0.5935,0.0,DFR · AE de características VGG16,vgg16_dfr|capsule|squeeze
+vgg16_dfr,carpet,color,19,0.5019,0.1579,DFR · AE de características VGG16,vgg16_dfr|carpet|color
+vgg16_dfr,carpet,cut,17,0.9979,1.0,DFR · AE de características VGG16,vgg16_dfr|carpet|cut
+vgg16_dfr,carpet,hole,17,0.9433,0.8824,DFR · AE de características VGG16,vgg16_dfr|carpet|hole
+vgg16_dfr,carpet,metal_contamination,17,0.7941,0.6471,DFR · AE de características VGG16,vgg16_dfr|carpet|metal_contamination
+vgg16_dfr,carpet,thread,19,0.859,0.7368,DFR · AE de características VGG16,vgg16_dfr|carpet|thread
+vgg16_dfr,grid,bent,12,0.7381,0.0,DFR · AE de características VGG16,vgg16_dfr|grid|bent
+vgg16_dfr,grid,broken,12,0.7976,0.0833,DFR · AE de características VGG16,vgg16_dfr|grid|broken
+vgg16_dfr,grid,glue,11,0.6797,0.1818,DFR · AE de características VGG16,vgg16_dfr|grid|glue
+vgg16_dfr,grid,metal_contamination,11,0.7965,0.0909,DFR · AE de características VGG16,vgg16_dfr|grid|metal_contamination
+vgg16_dfr,grid,thread,11,0.3939,0.0,DFR · AE de características VGG16,vgg16_dfr|grid|thread
+vgg16_dfr,hazelnut,crack,18,0.9958,0.7778,DFR · AE de características VGG16,vgg16_dfr|hazelnut|crack
+vgg16_dfr,hazelnut,cut,17,0.9735,0.2353,DFR · AE de características VGG16,vgg16_dfr|hazelnut|cut
+vgg16_dfr,hazelnut,hole,18,0.9986,0.8889,DFR · AE de características VGG16,vgg16_dfr|hazelnut|hole
+vgg16_dfr,hazelnut,print,17,1.0,1.0,DFR · AE de características VGG16,vgg16_dfr|hazelnut|print
+vgg16_dfr,leather,color,19,0.7171,1.0,DFR · AE de características VGG16,vgg16_dfr|leather|color
+vgg16_dfr,leather,cut,19,0.648,0.9474,DFR · AE de características VGG16,vgg16_dfr|leather|cut
+vgg16_dfr,leather,fold,17,0.8474,1.0,DFR · AE de características VGG16,vgg16_dfr|leather|fold
+vgg16_dfr,leather,glue,19,0.8059,0.8947,DFR · AE de características VGG16,vgg16_dfr|leather|glue
+vgg16_dfr,leather,poke,18,0.8056,1.0,DFR · AE de características VGG16,vgg16_dfr|leather|poke
+vgg16_dfr,metal_nut,bent,25,0.6218,0.0,DFR · AE de características VGG16,vgg16_dfr|metal_nut|bent
+vgg16_dfr,metal_nut,color,22,0.7583,0.2727,DFR · AE de características VGG16,vgg16_dfr|metal_nut|color
+vgg16_dfr,metal_nut,flip,23,0.753,0.1304,DFR · AE de características VGG16,vgg16_dfr|metal_nut|flip
+vgg16_dfr,metal_nut,scratch,23,0.413,0.0,DFR · AE de características VGG16,vgg16_dfr|metal_nut|scratch
+vgg16_dfr,pill,color,25,0.8508,0.28,DFR · AE de características VGG16,vgg16_dfr|pill|color
+vgg16_dfr,pill,combined,17,0.9887,0.7647,DFR · AE de características VGG16,vgg16_dfr|pill|combined
+vgg16_dfr,pill,contamination,21,0.8388,0.2857,DFR · AE de características VGG16,vgg16_dfr|pill|contamination
+vgg16_dfr,pill,crack,26,0.784,0.3462,DFR · AE de características VGG16,vgg16_dfr|pill|crack
+vgg16_dfr,pill,faulty_imprint,19,0.666,0.0526,DFR · AE de características VGG16,vgg16_dfr|pill|faulty_imprint
+vgg16_dfr,pill,pill_type,9,1.0,1.0,DFR · AE de características VGG16,vgg16_dfr|pill|pill_type
+vgg16_dfr,pill,scratch,24,0.6554,0.125,DFR · AE de características VGG16,vgg16_dfr|pill|scratch
+vgg16_dfr,screw,manipulated_front,24,0.7703,0.0,DFR · AE de características VGG16,vgg16_dfr|screw|manipulated_front
+vgg16_dfr,screw,scratch_head,24,0.7236,0.0,DFR · AE de características VGG16,vgg16_dfr|screw|scratch_head
+vgg16_dfr,screw,scratch_neck,25,0.6956,0.0,DFR · AE de características VGG16,vgg16_dfr|screw|scratch_neck
+vgg16_dfr,screw,thread_side,23,0.7349,0.0,DFR · AE de características VGG16,vgg16_dfr|screw|thread_side
+vgg16_dfr,screw,thread_top,23,0.7338,0.0,DFR · AE de características VGG16,vgg16_dfr|screw|thread_top
+vgg16_dfr,tile,crack,17,1.0,1.0,DFR · AE de características VGG16,vgg16_dfr|tile|crack
+vgg16_dfr,tile,glue_strip,18,0.9781,0.7222,DFR · AE de características VGG16,vgg16_dfr|tile|glue_strip
+vgg16_dfr,tile,gray_stroke,16,0.6061,0.0625,DFR · AE de características VGG16,vgg16_dfr|tile|gray_stroke
+vgg16_dfr,tile,oil,18,0.9327,0.2778,DFR · AE de características VGG16,vgg16_dfr|tile|oil
+vgg16_dfr,tile,rough,15,0.9475,0.4667,DFR · AE de características VGG16,vgg16_dfr|tile|rough
+vgg16_dfr,toothbrush,defective,30,0.6917,0.5,DFR · AE de características VGG16,vgg16_dfr|toothbrush|defective
+vgg16_dfr,transistor,bent_lead,10,0.4767,0.1,DFR · AE de características VGG16,vgg16_dfr|transistor|bent_lead
+vgg16_dfr,transistor,cut_lead,10,0.3933,0.0,DFR · AE de características VGG16,vgg16_dfr|transistor|cut_lead
+vgg16_dfr,transistor,damaged_case,10,0.2267,0.0,DFR · AE de características VGG16,vgg16_dfr|transistor|damaged_case
+vgg16_dfr,transistor,misplaced,10,0.6833,0.6,DFR · AE de características VGG16,vgg16_dfr|transistor|misplaced
+vgg16_dfr,wood,color,8,1.0,1.0,DFR · AE de características VGG16,vgg16_dfr|wood|color
+vgg16_dfr,wood,combined,11,1.0,1.0,DFR · AE de características VGG16,vgg16_dfr|wood|combined
+vgg16_dfr,wood,hole,10,1.0,1.0,DFR · AE de características VGG16,vgg16_dfr|wood|hole
+vgg16_dfr,wood,liquid,10,0.9632,0.8,DFR · AE de características VGG16,vgg16_dfr|wood|liquid
+vgg16_dfr,wood,scratch,21,0.9674,0.9048,DFR · AE de características VGG16,vgg16_dfr|wood|scratch
+vgg16_dfr,zipper,broken_teeth,19,0.7566,0.5789,DFR · AE de características VGG16,vgg16_dfr|zipper|broken_teeth
+vgg16_dfr,zipper,combined,16,0.9355,0.9375,DFR · AE de características VGG16,vgg16_dfr|zipper|combined
+vgg16_dfr,zipper,fabric_border,17,1.0,1.0,DFR · AE de características VGG16,vgg16_dfr|zipper|fabric_border
+vgg16_dfr,zipper,fabric_interior,16,0.5918,0.375,DFR · AE de características VGG16,vgg16_dfr|zipper|fabric_interior
+vgg16_dfr,zipper,rough,17,0.9724,0.9412,DFR · AE de características VGG16,vgg16_dfr|zipper|rough
+vgg16_dfr,zipper,split_teeth,18,0.6372,0.3889,DFR · AE de características VGG16,vgg16_dfr|zipper|split_teeth
+vgg16_dfr,zipper,squeezed_teeth,16,0.9238,0.875,DFR · AE de características VGG16,vgg16_dfr|zipper|squeezed_teeth

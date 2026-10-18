@@ -1,0 +1,33 @@
+clave,valor,unidad,descripcion,justificacion
+horas_anio,4000.0,h/año,Horas de operación por línea,"2 turnos de 8 h, 250 días"
+piezas_h,200.0,piezas/h,Producción por línea,"Una pieza cada 18 s; muy por debajo de la capacidad del sistema más lento (PatchCore: 65 ms/imagen, unas 55 000 piezas/h)"
+p_def_0,0.005,fracción,Piezas defectuosas con la máquina sana,Proceso estable: 5 000 ppm
+p_def_1,0.02,fracción,Piezas defectuosas con desgaste leve,4 veces la tasa sana
+p_def_2,0.08,fracción,Piezas defectuosas con desgaste severo,"16 veces la tasa sana, antes de la falla"
+media_h_0,300.0,h,Tiempo medio sana antes de pasar a desgaste leve,Exponencial
+media_h_1,150.0,h,Tiempo medio en desgaste leve antes de desgaste severo,Exponencial
+media_h_2,60.0,h,Tiempo medio en desgaste severo antes de la falla,Exponencial; ciclo medio sin mantenimiento de unas 510 h
+correctivo_media_h,8.0,h,Duración media de una reparación por falla,"Lognormal, incluye diagnóstico y repuestos"
+correctivo_desv_h,4.0,h,Desviación de la duración de la reparación,
+preventivo_h,2.0,h,Duración de un mantenimiento preventivo,"Planificado, con repuestos a mano"
+intervalo_calendario_h,250.0,h,Intervalo del preventivo por calendario,Poco menos que la mitad del ciclo medio hasta la falla
+ventana_h,8.0,h,Ventana de alertas que vigila la política predictiva,Un turno
+disparos_falsos_anio,1.0,por línea/año,Mantenimientos innecesarios tolerados con la máquina sana,Fija el umbral del predictivo: percentil 1 − 1/4 000 por revisión horaria
+p_deriva_h,0.001,prob./h,Probabilidad por hora de una deriva de iluminación (−30 % de brillo),Una cada 1 000 h por línea; el efecto en cada sistema sale de la robustez medida
+deriva_h,24.0,h,Duración de la deriva si nadie recalibra,Se corrige al día siguiente o en el próximo mantenimiento
+manual_fraccion,0.1,fracción,Piezas que revisa el inspector en la situación actual,Muestreo del 10 %
+manual_recall,0.8,fracción,Defectos que ve el inspector en las piezas que revisa,Inspección visual humana
+manual_fpr,0.01,fracción,Piezas buenas que el inspector rechaza,
+costo_inspeccion_manual,0.25,USD/pieza,Costo de revisar a mano una pieza del muestreo,30 s a 30 USD/h
+costo_escape,10.0,USD/pieza,Pieza defectuosa que llega al cliente,"Devolución, reposición y reclamo"
+costo_descarte,2.0,USD/pieza,Pieza defectuosa detectada y descartada,Material y proceso perdidos
+costo_revision_alerta,0.5,USD/alerta,Revisar a mano una pieza marcada por el sistema,1 min a 30 USD/h
+costo_h_no_plan,1000.0,USD/h,Hora de parada no planificada,Producción perdida y personal ocioso
+costo_h_plan,400.0,USD/h,Hora de parada planificada,40 % de la no planificada: se reprograma la producción
+repuestos_correctivo,2000.0,USD/evento,Repuestos y servicio en una falla,
+repuestos_preventivo,300.0,USD/evento,Repuestos en un preventivo,
+costo_fijo_auto,4000.0,USD/línea/año,"Cámara, iluminación y GPU amortizadas para inspección automática",
+vida_nominal_h,40000.0,h-equivalentes,Vida útil de la máquina operando siempre sana,10 años a 4 000 h/año
+desgaste_mult_1,1.5,veces,Desgaste por hora en desgaste leve frente a sana,
+desgaste_mult_2,3.0,veces,Desgaste por hora en desgaste severo frente a sana,
+dano_falla_h,300.0,h-equivalentes,Vida consumida por cada falla,Daño adicional de operar hasta romper

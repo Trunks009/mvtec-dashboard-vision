@@ -1,0 +1,136 @@
+modelo,categoria,auroc_img,auroc_px,precision,recall,f1,iou,dice,fpr,ms_img,t_ajuste_s,nombre,grupo
+ae_conv_ssim,bottle,0.6349,0.7091,0.9583,0.3651,0.5287,0.0831,0.14,0.05,3.4277,22.1596,AE convolucional · SSIM+L1,objeto
+lb_bordes,bottle,0.8222,0.6986,1.0,0.2857,0.4444,0.1732,0.2634,0.0,4.4053,0.5655,LB · bordes,objeto
+lb_ensamble,bottle,0.9143,0.8786,1.0,0.3651,0.5349,0.3147,0.4277,0.0,40.2864,5.6748,Línea base clásica · ensamble,objeto
+lb_plantilla,bottle,0.9754,0.9474,1.0,0.8413,0.9138,0.3635,0.4914,0.0,6.1686,0.7398,LB · plantilla,objeto
+lb_segmentacion,bottle,0.3524,0.6384,0.7778,0.1111,0.1944,0.0159,0.0277,0.1,28.5466,2.8283,LB · segmentación,objeto
+padim_vgg16,bottle,0.9937,0.9822,1.0,0.9683,0.9839,0.4758,0.6248,0.0,43.64,7.3225,PaDiM · VGG16 + Gauss,objeto
+patchcore_resnet50,bottle,1.0,0.986,1.0,0.9683,0.9839,0.2825,0.4261,0.0,62.5444,115.3384,PatchCore · ResNet50 + kNN,objeto
+vae_dae,bottle,0.9825,0.9363,0.9531,0.9683,0.9606,0.3735,0.5273,0.15,7.749,80.507,VAE / Denoising AE,objeto
+vgg16_dfr,bottle,0.9468,0.817,1.0,0.7778,0.875,0.1759,0.2712,0.0,13.1506,43.5422,DFR · AE de características VGG16,objeto
+ae_conv_ssim,cable,0.532,0.5398,0.5,0.0109,0.0213,0.0004,0.0007,0.0172,3.4937,14.9145,AE convolucional · SSIM+L1,objeto
+lb_bordes,cable,0.6132,0.526,0.7778,0.0761,0.1386,0.033,0.0556,0.0345,4.4799,0.6687,LB · bordes,objeto
+lb_ensamble,cable,0.6728,0.8801,0.7273,0.087,0.1553,0.1195,0.1695,0.0517,40.4868,6.2282,Línea base clásica · ensamble,objeto
+lb_plantilla,cable,0.7436,0.8819,0.9231,0.3913,0.5496,0.1613,0.2181,0.0517,6.2387,0.7441,LB · plantilla,objeto
+lb_segmentacion,cable,0.4588,0.7551,1.0,0.0217,0.0426,0.0033,0.0064,0.0,29.4729,2.991,LB · segmentación,objeto
+padim_vgg16,cable,0.7294,0.852,0.9667,0.3152,0.4754,0.0781,0.1278,0.0172,45.3154,7.4288,PaDiM · VGG16 + Gauss,objeto
+patchcore_resnet50,cable,0.9873,0.9857,0.9747,0.837,0.9006,0.3833,0.5341,0.0345,62.5725,128.3432,PatchCore · ResNet50 + kNN,objeto
+vae_dae,cable,0.828,0.6148,1.0,0.1196,0.2136,0.1079,0.1717,0.0,7.864,89.1391,VAE / Denoising AE,objeto
+vgg16_dfr,cable,0.5137,0.6873,0.8519,0.25,0.3866,0.0477,0.0784,0.069,14.2391,39.2132,DFR · AE de características VGG16,objeto
+ae_conv_ssim,capsule,0.3849,0.8846,0.8,0.0734,0.1345,0.0498,0.0735,0.087,3.2144,14.6922,AE convolucional · SSIM+L1,objeto
+lb_bordes,capsule,0.6534,0.7783,0.6667,0.0183,0.0357,0.1081,0.1623,0.0435,4.0818,0.5723,LB · bordes,objeto
+lb_ensamble,capsule,0.6534,0.9404,1.0,0.0367,0.0708,0.1214,0.1774,0.0,39.9942,5.7901,Línea base clásica · ensamble,objeto
+lb_plantilla,capsule,0.7004,0.927,1.0,0.1927,0.3231,0.1087,0.1576,0.0,6.3532,0.7511,LB · plantilla,objeto
+lb_segmentacion,capsule,0.4998,0.8588,0.6667,0.0183,0.0357,0.016,0.0272,0.0435,29.1615,2.7707,LB · segmentación,objeto
+padim_vgg16,capsule,0.9154,0.9736,0.9706,0.6055,0.7458,0.1352,0.2244,0.087,43.2187,7.3881,PaDiM · VGG16 + Gauss,objeto
+patchcore_resnet50,capsule,0.9801,0.9872,1.0,0.4587,0.6289,0.1396,0.2285,0.0,63.7059,123.1123,PatchCore · ResNet50 + kNN,objeto
+vae_dae,capsule,0.7072,0.8528,1.0,0.1743,0.2969,0.1434,0.2173,0.0,7.8725,87.2587,VAE / Denoising AE,objeto
+vgg16_dfr,capsule,0.5844,0.9248,0.8571,0.1101,0.1951,0.1507,0.2279,0.087,15.091,41.9167,DFR · AE de características VGG16,objeto
+ae_conv_ssim,hazelnut,0.9218,0.9691,1.0,0.4571,0.6275,0.4791,0.6177,0.0,3.566,26.6841,AE convolucional · SSIM+L1,objeto
+lb_bordes,hazelnut,0.4548,0.4845,0.3846,0.0714,0.1205,0.0005,0.0009,0.2,4.2025,1.1729,LB · bordes,objeto
+lb_ensamble,hazelnut,0.6414,0.9576,0.4167,0.0714,0.122,0.3199,0.4304,0.175,39.5571,9.3738,Línea base clásica · ensamble,objeto
+lb_plantilla,hazelnut,0.7154,0.935,0.6,0.0429,0.08,0.112,0.1723,0.05,6.0674,1.2875,LB · plantilla,objeto
+lb_segmentacion,hazelnut,0.875,0.9496,1.0,0.5143,0.6792,0.3285,0.4409,0.0,30.3162,3.7529,LB · segmentación,objeto
+padim_vgg16,hazelnut,0.4189,0.9592,0.4667,0.1,0.1647,0.077,0.1173,0.2,42.8317,12.9771,PaDiM · VGG16 + Gauss,objeto
+patchcore_resnet50,hazelnut,0.9993,0.9873,1.0,0.9714,0.9855,0.2824,0.4131,0.0,67.1359,382.0591,PatchCore · ResNet50 + kNN,objeto
+vae_dae,hazelnut,0.9304,0.9781,0.9737,0.5286,0.6852,0.4753,0.6209,0.025,7.6909,155.5041,VAE / Denoising AE,objeto
+vgg16_dfr,hazelnut,0.9921,0.9731,1.0,0.7286,0.843,0.4589,0.6176,0.0,14.809,72.1424,DFR · AE de características VGG16,objeto
+ae_conv_ssim,metal_nut,0.4194,0.7991,0.0,0.0,0.0,0.0066,0.0125,0.0,3.5579,15.1283,AE convolucional · SSIM+L1,objeto
+lb_bordes,metal_nut,0.7043,0.5194,1.0,0.4086,0.5802,0.0398,0.0651,0.0,4.2722,0.6506,LB · bordes,objeto
+lb_ensamble,metal_nut,0.6285,0.8437,0.9565,0.4731,0.6331,0.1414,0.2108,0.0909,39.5728,5.8273,Línea base clásica · ensamble,objeto
+lb_plantilla,metal_nut,0.6945,0.7805,0.9767,0.4516,0.6176,0.1607,0.2377,0.0455,5.7256,0.7295,LB · plantilla,objeto
+lb_segmentacion,metal_nut,0.4501,0.82,0.75,0.0645,0.1188,0.0565,0.0791,0.0909,29.2106,2.7317,LB · segmentación,objeto
+padim_vgg16,metal_nut,0.7845,0.8893,0.9545,0.4516,0.6131,0.1192,0.2005,0.0909,40.8828,6.9324,PaDiM · VGG16 + Gauss,objeto
+patchcore_resnet50,metal_nut,0.9961,0.9861,0.9785,0.9785,0.9785,0.4549,0.593,0.0909,63.6157,124.4141,PatchCore · ResNet50 + kNN,objeto
+vae_dae,metal_nut,0.8402,0.8063,0.9524,0.6452,0.7692,0.1863,0.2949,0.1364,7.907,87.8379,VAE / Denoising AE,objeto
+vgg16_dfr,metal_nut,0.6349,0.7609,0.75,0.0968,0.1714,0.0596,0.097,0.1364,14.776,41.25,DFR · AE de características VGG16,objeto
+ae_conv_ssim,pill,0.7119,0.8825,1.0,0.1135,0.2038,0.1097,0.1686,0.0,3.7039,26.0726,AE convolucional · SSIM+L1,objeto
+lb_bordes,pill,0.566,0.8809,1.0,0.0071,0.0141,0.0609,0.102,0.0,4.1437,0.7855,LB · bordes,objeto
+lb_ensamble,pill,0.5734,0.9143,1.0,0.0071,0.0141,0.1322,0.2074,0.0,38.5378,6.367,Línea base clásica · ensamble,objeto
+lb_plantilla,pill,0.653,0.8754,1.0,0.1206,0.2152,0.1631,0.2478,0.0,6.31,0.9071,LB · plantilla,objeto
+lb_segmentacion,pill,0.6028,0.9015,1.0,0.1348,0.2375,0.0744,0.119,0.0,27.2943,3.0222,LB · segmentación,objeto
+padim_vgg16,pill,0.8339,0.9103,0.9744,0.2695,0.4222,0.057,0.0972,0.0385,41.146,8.7401,PaDiM · VGG16 + Gauss,objeto
+patchcore_resnet50,pill,0.8939,0.9829,0.9765,0.5887,0.7345,0.2667,0.3784,0.0769,65.3799,183.5106,PatchCore · ResNet50 + kNN,objeto
+vae_dae,pill,0.6882,0.8751,0.9667,0.2057,0.3392,0.1177,0.1805,0.0385,7.8293,110.3166,VAE / Denoising AE,objeto
+vgg16_dfr,pill,0.8047,0.8968,1.0,0.3404,0.5079,0.1336,0.2088,0.0,14.3221,51.027,DFR · AE de características VGG16,objeto
+ae_conv_ssim,screw,0.899,0.9581,0.0,0.0,0.0,0.0934,0.1487,0.0,3.5288,22.1526,AE convolucional · SSIM+L1,objeto
+lb_bordes,screw,0.4847,0.7889,1.0,0.0084,0.0167,0.0487,0.073,0.0,3.9886,0.8652,LB · bordes,objeto
+lb_ensamble,screw,0.4829,0.9255,0.6667,0.0504,0.0938,0.0467,0.0685,0.0732,37.3128,7.4787,Línea base clásica · ensamble,objeto
+lb_plantilla,screw,0.4579,0.8104,0.7,0.0588,0.1085,0.0338,0.0508,0.0732,6.493,1.104,LB · plantilla,objeto
+lb_segmentacion,screw,0.5511,0.9378,0.5,0.0084,0.0165,0.0311,0.049,0.0244,27.083,3.0198,LB · segmentación,objeto
+padim_vgg16,screw,0.7133,0.9605,0.8889,0.0672,0.125,0.0518,0.0851,0.0244,43.116,10.5334,PaDiM · VGG16 + Gauss,objeto
+patchcore_resnet50,screw,0.9338,0.9872,0.9762,0.6891,0.8079,0.1075,0.1838,0.0488,64.96,257.3199,PatchCore · ResNet50 + kNN,objeto
+vae_dae,screw,0.3849,0.9615,0.75,0.0504,0.0945,0.0955,0.1506,0.0488,7.6132,128.9894,VAE / Denoising AE,objeto
+vgg16_dfr,screw,0.7313,0.9593,0.0,0.0,0.0,0.0909,0.1456,0.0,14.7115,60.0825,DFR · AE de características VGG16,objeto
+ae_conv_ssim,toothbrush,0.2778,0.7762,0.0,0.0,0.0,0.0,0.0,0.0,3.2313,4.2065,AE convolucional · SSIM+L1,objeto
+lb_bordes,toothbrush,0.8722,0.8106,1.0,0.6,0.75,0.1168,0.1894,0.0,3.8435,0.1632,LB · bordes,objeto
+lb_ensamble,toothbrush,0.9389,0.9719,1.0,0.6667,0.8,0.2483,0.3791,0.0,36.7488,2.9531,Línea base clásica · ensamble,objeto
+lb_plantilla,toothbrush,0.9833,0.9755,1.0,0.9,0.9474,0.2908,0.4213,0.0,5.6656,0.2019,LB · plantilla,objeto
+lb_segmentacion,toothbrush,0.5222,0.8748,1.0,0.0667,0.125,0.0105,0.0185,0.0,25.7818,2.106,LB · segmentación,objeto
+padim_vgg16,toothbrush,0.8917,0.9616,0.9259,0.8333,0.8772,0.1487,0.2437,0.1667,43.319,1.9908,PaDiM · VGG16 + Gauss,objeto
+patchcore_resnet50,toothbrush,0.9028,0.9882,0.9091,1.0,0.9524,0.1412,0.2355,0.25,56.8071,11.2633,PatchCore · ResNet50 + kNN,objeto
+vae_dae,toothbrush,0.925,0.7435,0.96,0.8,0.8727,0.1066,0.1806,0.0833,8.5204,18.5345,VAE / Denoising AE,objeto
+vgg16_dfr,toothbrush,0.6917,0.8822,1.0,0.5,0.6667,0.1479,0.2401,0.0,14.7106,12.2244,DFR · AE de características VGG16,objeto
+ae_conv_ssim,transistor,0.4033,0.5234,0.8,0.1,0.1778,0.0108,0.0198,0.0167,3.6431,15.1651,AE convolucional · SSIM+L1,objeto
+lb_bordes,transistor,0.6954,0.6738,0.0,0.0,0.0,0.0861,0.1345,0.0,4.0185,0.5866,LB · bordes,objeto
+lb_ensamble,transistor,0.8004,0.7973,1.0,0.2,0.3333,0.1665,0.248,0.0,37.6441,5.7838,Línea base clásica · ensamble,objeto
+lb_plantilla,transistor,0.8792,0.8566,0.9565,0.55,0.6984,0.1795,0.2663,0.0167,6.4077,0.7332,LB · plantilla,objeto
+lb_segmentacion,transistor,0.355,0.5004,0.6667,0.05,0.093,0.0086,0.0156,0.0167,26.2857,2.9147,LB · segmentación,objeto
+padim_vgg16,transistor,0.9275,0.9205,0.8966,0.65,0.7536,0.1884,0.2934,0.05,43.5116,7.0063,PaDiM · VGG16 + Gauss,objeto
+patchcore_resnet50,transistor,0.9462,0.9349,0.9474,0.45,0.6102,0.2718,0.3955,0.0167,82.3596,116.313,PatchCore · ResNet50 + kNN,objeto
+vae_dae,transistor,0.8825,0.7284,0.9615,0.625,0.7576,0.1908,0.2843,0.0167,7.9956,87.1614,VAE / Denoising AE,objeto
+vgg16_dfr,transistor,0.445,0.629,0.7778,0.175,0.2857,0.0289,0.0519,0.0333,14.9847,40.4973,DFR · AE de características VGG16,objeto
+ae_conv_ssim,zipper,0.4257,0.8214,0.9167,0.1849,0.3077,0.0579,0.0973,0.0625,3.9976,17.6511,AE convolucional · SSIM+L1,objeto
+lb_bordes,zipper,0.4252,0.6371,1.0,0.0084,0.0167,0.0071,0.0128,0.0,3.9969,0.688,LB · bordes,objeto
+lb_ensamble,zipper,0.5381,0.9012,0.875,0.0588,0.1102,0.0811,0.1349,0.0312,39.4205,5.9845,Línea base clásica · ensamble,objeto
+lb_plantilla,zipper,0.8091,0.7711,0.9,0.0756,0.1395,0.1368,0.202,0.0312,5.9326,0.7994,LB · plantilla,objeto
+lb_segmentacion,zipper,0.4976,0.8856,0.9444,0.1429,0.2482,0.0261,0.0465,0.0312,26.944,2.5927,LB · segmentación,objeto
+padim_vgg16,zipper,0.9288,0.9789,0.9851,0.5546,0.7097,0.3806,0.5303,0.0312,43.3884,7.9752,PaDiM · VGG16 + Gauss,objeto
+patchcore_resnet50,zipper,0.9643,0.9848,0.9818,0.9076,0.9432,0.2168,0.3422,0.0625,63.646,146.9684,PatchCore · ResNet50 + kNN,objeto
+vae_dae,zipper,0.8432,0.6425,1.0,0.2101,0.3472,0.0699,0.1142,0.0,8.1411,45.7818,VAE / Denoising AE,objeto
+vgg16_dfr,zipper,0.8285,0.9098,0.9348,0.7227,0.8152,0.0828,0.137,0.1875,14.8142,44.7955,DFR · AE de características VGG16,objeto
+ae_conv_ssim,carpet,0.3985,0.399,1.0,0.0112,0.0222,0.0077,0.0139,0.0,3.9287,28.4261,AE convolucional · SSIM+L1,textura
+lb_bordes,carpet,0.5,0.5,0.0,0.0,0.0,0.0,0.0,0.0,5.106,1.0143,LB · bordes,textura
+lb_ensamble,carpet,0.6894,0.7537,1.0,0.2022,0.3364,0.1385,0.2135,0.0,40.4121,7.4252,Línea base clásica · ensamble,textura
+lb_plantilla,carpet,0.5895,0.7597,0.9412,0.3596,0.5203,0.1534,0.2268,0.0714,6.717,1.0757,LB · plantilla,textura
+lb_segmentacion,carpet,0.7099,0.6856,1.0,0.1236,0.22,0.0953,0.1535,0.0,28.2465,3.1481,LB · segmentación,textura
+padim_vgg16,carpet,0.9097,0.9783,0.8791,0.8989,0.8889,0.2953,0.4237,0.3929,40.9849,9.2596,PaDiM · VGG16 + Gauss,textura
+patchcore_resnet50,carpet,0.884,0.9873,0.9487,0.8315,0.8862,0.2642,0.3835,0.1429,68.8576,200.3131,PatchCore · ResNet50 + kNN,textura
+vae_dae,carpet,0.317,0.3011,0.0,0.0,0.0,0.0085,0.0152,0.0,7.7163,97.4862,VAE / Denoising AE,textura
+vgg16_dfr,carpet,0.813,0.8895,0.9231,0.6742,0.7792,0.2414,0.3659,0.1786,12.3858,51.4844,DFR · AE de características VGG16,textura
+ae_conv_ssim,grid,0.8446,0.7207,1.0,0.1579,0.2727,0.0319,0.0585,0.0,3.4548,18.3535,AE convolucional · SSIM+L1,textura
+lb_bordes,grid,0.5,0.5,0.0,0.0,0.0,0.0,0.0,0.0,4.7489,0.959,LB · bordes,textura
+lb_ensamble,grid,0.6775,0.564,0.0,0.0,0.0,0.0025,0.0047,0.0,40.03,6.9987,Línea base clásica · ensamble,textura
+lb_plantilla,grid,0.8229,0.5778,0.0,0.0,0.0,0.0062,0.0106,0.0,6.6077,0.954,LB · plantilla,textura
+lb_segmentacion,grid,0.6475,0.5254,0.0,0.0,0.0,0.0038,0.0072,0.0,27.1443,2.9817,LB · segmentación,textura
+padim_vgg16,grid,0.914,0.9206,1.0,0.1228,0.2188,0.1874,0.2905,0.0,43.12,8.3398,PaDiM · VGG16 + Gauss,textura
+patchcore_resnet50,grid,0.6951,0.946,1.0,0.1404,0.2462,0.1271,0.2076,0.0,67.2612,177.2816,PatchCore · ResNet50 + kNN,textura
+vae_dae,grid,0.7644,0.61,0.0,0.0,0.0,0.0,0.0,0.0,8.0865,50.8373,VAE / Denoising AE,textura
+vgg16_dfr,grid,0.6842,0.8732,1.0,0.0702,0.1311,0.1209,0.1949,0.0,12.8863,42.6087,DFR · AE de características VGG16,textura
+ae_conv_ssim,leather,0.732,0.8788,0.8732,0.6739,0.7607,0.1868,0.2817,0.2812,3.5664,17.3402,AE convolucional · SSIM+L1,textura
+lb_bordes,leather,0.5,0.5,0.0,0.0,0.0,0.0,0.0,0.0,4.8113,0.7801,LB · bordes,textura
+lb_ensamble,leather,0.9545,0.9736,1.0,0.75,0.8571,0.1574,0.2427,0.0,39.2776,6.4573,Línea base clásica · ensamble,textura
+lb_plantilla,leather,0.8764,0.9603,0.8173,0.9239,0.8673,0.1442,0.2225,0.5938,6.4722,0.8791,LB · plantilla,textura
+lb_segmentacion,leather,0.949,0.9695,1.0,0.6957,0.8205,0.1924,0.2925,0.0,27.642,2.852,LB · segmentación,textura
+padim_vgg16,leather,1.0,0.9931,0.807,1.0,0.8932,0.0839,0.148,0.6875,43.249,8.113,PaDiM · VGG16 + Gauss,textura
+patchcore_resnet50,leather,0.9783,0.9915,0.9082,0.9674,0.9368,0.0635,0.115,0.2812,63.729,153.4408,PatchCore · ResNet50 + kNN,textura
+vae_dae,leather,0.5825,0.8711,0.7656,0.5326,0.6282,0.1309,0.2001,0.4688,7.8066,34.5641,VAE / Denoising AE,textura
+vgg16_dfr,leather,0.7626,0.9507,0.7479,0.9674,0.8436,0.2147,0.338,0.9375,13.4057,41.0866,DFR · AE de características VGG16,textura
+ae_conv_ssim,tile,0.5642,0.4619,1.0,0.0357,0.069,0.0128,0.0224,0.0,3.7931,16.7771,AE convolucional · SSIM+L1,textura
+lb_bordes,tile,0.5,0.5,0.0,0.0,0.0,0.0,0.0,0.0,5.1484,0.7874,LB · bordes,textura
+lb_ensamble,tile,0.8074,0.5053,1.0,0.3095,0.4727,0.2134,0.2827,0.0,40.1031,6.3256,Línea base clásica · ensamble,textura
+lb_plantilla,tile,0.807,0.5674,1.0,0.4048,0.5763,0.2143,0.2855,0.0,6.4445,0.8693,LB · plantilla,textura
+lb_segmentacion,tile,0.7976,0.4387,1.0,0.1667,0.2857,0.1594,0.2243,0.0,27.8915,2.7855,LB · segmentación,textura
+padim_vgg16,tile,0.9062,0.9458,1.0,0.6071,0.7556,0.2807,0.3871,0.0,43.6099,7.7075,PaDiM · VGG16 + Gauss,textura
+patchcore_resnet50,tile,0.9639,0.9458,1.0,0.8214,0.902,0.4608,0.5849,0.0,64.5102,135.7417,PatchCore · ResNet50 + kNN,textura
+vae_dae,tile,0.4358,0.4335,0.0,0.0,0.0,0.0054,0.0102,0.0,7.7463,89.088,VAE / Denoising AE,textura
+vgg16_dfr,tile,0.8965,0.625,1.0,0.5119,0.6772,0.0878,0.1436,0.0,13.221,39.3345,DFR · AE de características VGG16,textura
+ae_conv_ssim,wood,0.8263,0.7331,1.0,0.1667,0.2857,0.1174,0.1726,0.0,3.6747,18.3659,AE convolucional · SSIM+L1,textura
+lb_bordes,wood,0.5,0.5,0.0,0.0,0.0,0.0,0.0,0.0,5.124,0.7805,LB · bordes,textura
+lb_ensamble,wood,0.9096,0.7571,1.0,0.3333,0.5,0.1381,0.2101,0.0,40.4189,6.7876,Línea base clásica · ensamble,textura
+lb_plantilla,wood,0.914,0.7547,1.0,0.3667,0.5366,0.1251,0.1937,0.0,6.7266,0.9104,LB · plantilla,textura
+lb_segmentacion,wood,0.886,0.7198,1.0,0.3167,0.481,0.1206,0.1881,0.0,28.8369,3.3103,LB · segmentación,textura
+padim_vgg16,wood,0.9851,0.954,1.0,0.3667,0.5366,0.3172,0.4582,0.0,42.701,8.1377,PaDiM · VGG16 + Gauss,textura
+patchcore_resnet50,wood,0.9737,0.9413,0.9661,0.95,0.958,0.1942,0.3019,0.1053,63.9528,156.432,PatchCore · ResNet50 + kNN,textura
+vae_dae,wood,0.9588,0.7557,1.0,0.05,0.0952,0.0602,0.0963,0.0,8.2155,35.024,VAE / Denoising AE,textura
+vgg16_dfr,wood,0.9825,0.9026,1.0,0.9333,0.9655,0.2961,0.434,0.0,13.229,41.8158,DFR · AE de características VGG16,textura

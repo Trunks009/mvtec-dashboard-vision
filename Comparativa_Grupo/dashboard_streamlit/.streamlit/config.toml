@@ -1,0 +1,10 @@
+# Fondo neutro claro fijo: los colores del dashboard (gris/negro/rojo) estan pensados para fondo blanco
+[theme]
+base = "light"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f5f5f4"
+textColor = "#1a1a1a"
+primaryColor = "#1a1a1a"
+
+[browser]
+gatherUsageStats = false
